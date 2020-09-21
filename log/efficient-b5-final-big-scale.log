@@ -416,3 +416,10 @@
 [2020-09-21 21:05:37,255][trainer_bg.py][INFO]  Epoch:16(801/1684) loss:0.044 learning rate:0.0018092361169766789
 [2020-09-21 21:06:35,029][trainer_bg.py][INFO]  Epoch:16(901/1684) loss:0.004 learning rate:0.0018092361169766789
 [2020-09-21 21:07:33,111][trainer_bg.py][INFO]  Epoch:16(1001/1684) loss:0.000 learning rate:0.0018092361169766789
+[2020-09-21 21:08:30,872][trainer_bg.py][INFO]  Epoch:16(1101/1684) loss:0.026 learning rate:0.0018092361169766789
+[2020-09-21 21:09:28,633][trainer_bg.py][INFO]  Epoch:16(1201/1684) loss:0.011 learning rate:0.0018092361169766789
+[2020-09-21 21:10:26,737][trainer_bg.py][INFO]  Epoch:16(1301/1684) loss:0.001 learning rate:0.0018092361169766789
+[2020-09-21 21:11:24,153][trainer_bg.py][INFO]  Epoch:16(1401/1684) loss:0.023 learning rate:0.0018092361169766789
+[2020-09-21 21:12:21,554][trainer_bg.py][INFO]  Epoch:16(1501/1684) loss:0.002 learning rate:0.0018092361169766789
+[2020-09-21 21:13:19,359][trainer_bg.py][INFO]  Epoch:16(1601/1684) loss:0.209 learning rate:0.0018092361169766789
+[2020-09-21 21:14:07,601][trainer_bg.py][INFO]  Epoch:16(1685/1684) loss:0.056 learning rate:0.0018092361169766789
