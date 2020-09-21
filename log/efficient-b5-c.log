@@ -1,0 +1,575 @@
+[2020-08-08 18:32:32,175][get_feature_trainer.py][INFO] Using: efficient-b5-c
+[2020-08-08 18:32:32,175][get_feature_trainer.py][INFO] Using the GPU: (8, 9)
+[2020-08-08 18:32:32,175][get_feature_trainer.py][INFO] start training...
+[2020-08-08 18:32:32,212][get_feature_trainer.py][INFO] ----------
+[2020-08-08 18:32:32,212][get_feature_trainer.py][INFO] Epoch 0/29
+[2020-08-08 18:32:32,212][get_feature_trainer.py][INFO] learning rate:0.002
+[2020-08-08 18:32:32,213][get_feature_trainer.py][INFO] ----------
+[2020-08-08 18:32:41,681][get_feature_trainer.py][INFO]  Epoch:0(1/688) loss:1.000 
+[2020-08-08 18:33:57,037][get_feature_trainer.py][INFO]  Epoch:0(101/688) loss:0.844 
+[2020-08-08 18:35:09,674][get_feature_trainer.py][INFO]  Epoch:0(201/688) loss:0.594 
+[2020-08-08 18:36:23,890][get_feature_trainer.py][INFO]  Epoch:0(301/688) loss:0.836 
+[2020-08-08 18:37:40,106][get_feature_trainer.py][INFO]  Epoch:0(401/688) loss:0.814 
+[2020-08-08 18:38:55,408][get_feature_trainer.py][INFO]  Epoch:0(501/688) loss:0.628 
+[2020-08-08 18:40:09,887][get_feature_trainer.py][INFO]  Epoch:0(601/688) loss:0.434 
+[2020-08-08 18:41:13,189][get_feature_trainer.py][INFO]  Epoch:0(689/688) loss:0.480 
+[2020-08-08 18:42:30,312][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.8639744952178534, '缓行': 0.018867924528301886, '拥堵': 0.5984455958549223}  各类F加权:0.5356358414621845
+[2020-08-08 18:42:30,312][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.6405 valAcc: 0.7572
+[2020-08-08 18:44:19,375][get_feature_trainer.py][INFO] efficient-b5-c 第0 epoch 预测结果:{'畅通': 393, '缓行': 0, '拥堵': 207}
+[2020-08-08 18:44:19,375][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 18:44:19,376][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.89728453 0.         0.72781065] 加权f1:0.6161432972621784 
+[2020-08-08 18:44:19,376][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.8383333333333334 Precision:[0.96692112 0.         0.5942029 ] Recall:[0.83700441 0.         0.9389313 ]
+[2020-08-08 18:44:19,383][get_feature_trainer.py][INFO] Epoch:[0/29]	 Loss=0.75889	 Acc=0.705 epoch_Time:8.683447972933452 min:
+[2020-08-08 18:44:20,133][get_feature_trainer.py][INFO] ----------
+[2020-08-08 18:44:20,133][get_feature_trainer.py][INFO] Epoch 1/29
+[2020-08-08 18:44:20,133][get_feature_trainer.py][INFO] learning rate:0.0018095526758540276
+[2020-08-08 18:44:20,133][get_feature_trainer.py][INFO] ----------
+[2020-08-08 18:44:21,941][get_feature_trainer.py][INFO]  Epoch:1(1/688) loss:0.526 
+[2020-08-08 18:45:33,467][get_feature_trainer.py][INFO]  Epoch:1(101/688) loss:0.635 
+[2020-08-08 18:46:44,851][get_feature_trainer.py][INFO]  Epoch:1(201/688) loss:0.141 
+[2020-08-08 18:47:56,101][get_feature_trainer.py][INFO]  Epoch:1(301/688) loss:0.972 
+[2020-08-08 18:49:09,233][get_feature_trainer.py][INFO]  Epoch:1(401/688) loss:1.327 
+[2020-08-08 18:50:20,255][get_feature_trainer.py][INFO]  Epoch:1(501/688) loss:1.126 
+[2020-08-08 18:51:31,069][get_feature_trainer.py][INFO]  Epoch:1(601/688) loss:0.456 
+[2020-08-08 18:52:33,866][get_feature_trainer.py][INFO]  Epoch:1(689/688) loss:0.401 
+[2020-08-08 18:53:48,333][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9061032863849765, '缓行': 0.0, '拥堵': 0.6641366223908918}  各类F加权:0.5797026307115304
+[2020-08-08 18:53:48,333][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.4483 valAcc: 0.8261
+[2020-08-08 18:55:35,664][get_feature_trainer.py][INFO] efficient-b5-c 第1 epoch 预测结果:{'畅通': 493, '缓行': 0, '拥堵': 107}
+[2020-08-08 18:55:35,664][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 18:55:35,665][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.94614572 0.         0.83193277] 加权f1:0.6883888085329168 
+[2020-08-08 18:55:35,666][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9116666666666666 Precision:[0.90872211 0.         0.92523364] Recall:[0.98678414 0.         0.75572519]
+[2020-08-08 18:55:35,673][get_feature_trainer.py][INFO] Epoch:[1/29]	 Loss=0.62965	 Acc=0.754 epoch_Time:8.229390525817871 min:
+[2020-08-08 18:55:36,539][get_feature_trainer.py][INFO] ----------
+[2020-08-08 18:55:36,539][get_feature_trainer.py][INFO] Epoch 2/29
+[2020-08-08 18:55:36,539][get_feature_trainer.py][INFO] learning rate:0.0013098841610217362
+[2020-08-08 18:55:36,539][get_feature_trainer.py][INFO] ----------
+[2020-08-08 18:55:38,418][get_feature_trainer.py][INFO]  Epoch:2(1/688) loss:0.919 
+[2020-08-08 18:56:49,627][get_feature_trainer.py][INFO]  Epoch:2(101/688) loss:0.419 
+[2020-08-08 18:58:02,658][get_feature_trainer.py][INFO]  Epoch:2(201/688) loss:0.475 
+[2020-08-08 18:59:14,887][get_feature_trainer.py][INFO]  Epoch:2(301/688) loss:1.255 
+[2020-08-08 19:00:25,205][get_feature_trainer.py][INFO]  Epoch:2(401/688) loss:0.353 
+[2020-08-08 19:01:36,576][get_feature_trainer.py][INFO]  Epoch:2(501/688) loss:0.153 
+[2020-08-08 19:02:47,834][get_feature_trainer.py][INFO]  Epoch:2(601/688) loss:0.156 
+[2020-08-08 19:03:49,905][get_feature_trainer.py][INFO]  Epoch:2(689/688) loss:0.458 
+[2020-08-08 19:05:04,037][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9167492566897919, '缓行': 0.0, '拥堵': 0.6917057902973395}  各类F加权:0.5983733255163621
+[2020-08-08 19:05:04,037][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.4618 valAcc: 0.8304
+[2020-08-08 19:06:46,545][get_feature_trainer.py][INFO] efficient-b5-c 第2 epoch 预测结果:{'畅通': 449, '缓行': 0, '拥堵': 151}
+[2020-08-08 19:06:46,546][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 19:06:46,546][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.95459579 0.         0.85815603] 加权f1:0.7058127753822954 
+[2020-08-08 19:06:46,547][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.92 Precision:[0.95991091 0.         0.8013245 ] Recall:[0.94933921 0.         0.92366412]
+[2020-08-08 19:06:46,553][get_feature_trainer.py][INFO] Epoch:[2/29]	 Loss=0.55456	 Acc=0.784 epoch_Time:8.223192274570465 min:
+[2020-08-08 19:06:46,757][get_feature_trainer.py][INFO] ----------
+[2020-08-08 19:06:46,757][get_feature_trainer.py][INFO] Epoch 3/29
+[2020-08-08 19:06:46,757][get_feature_trainer.py][INFO] learning rate:0.000691850429254387
+[2020-08-08 19:06:46,757][get_feature_trainer.py][INFO] ----------
+[2020-08-08 19:06:49,091][get_feature_trainer.py][INFO]  Epoch:3(1/688) loss:0.454 
+[2020-08-08 19:08:00,519][get_feature_trainer.py][INFO]  Epoch:3(101/688) loss:0.154 
+[2020-08-08 19:09:11,000][get_feature_trainer.py][INFO]  Epoch:3(201/688) loss:0.189 
+[2020-08-08 19:10:21,304][get_feature_trainer.py][INFO]  Epoch:3(301/688) loss:0.141 
+[2020-08-08 19:11:31,991][get_feature_trainer.py][INFO]  Epoch:3(401/688) loss:0.687 
+[2020-08-08 19:12:42,786][get_feature_trainer.py][INFO]  Epoch:3(501/688) loss:0.354 
+[2020-08-08 19:13:53,581][get_feature_trainer.py][INFO]  Epoch:3(601/688) loss:0.638 
+[2020-08-08 19:14:55,874][get_feature_trainer.py][INFO]  Epoch:3(689/688) loss:0.128 
+[2020-08-08 19:16:09,610][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9208066896212493, '缓行': 0.0, '拥堵': 0.6987179487179488}  各类F加权:0.6033921071550191
+[2020-08-08 19:16:09,611][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.4629 valAcc: 0.8362
+[2020-08-08 19:17:52,069][get_feature_trainer.py][INFO] efficient-b5-c 第3 epoch 预测结果:{'畅通': 469, '缓行': 0, '拥堵': 131}
+[2020-08-08 19:17:52,069][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 19:17:52,069][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.95341278 0.         0.86259542] 加权f1:0.708239808788137 
+[2020-08-08 19:17:52,070][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9216666666666666 Precision:[0.93816631 0.         0.86259542] Recall:[0.969163   0.         0.86259542]
+[2020-08-08 19:17:52,078][get_feature_trainer.py][INFO] Epoch:[3/29]	 Loss=0.49730	 Acc=0.801 epoch_Time:8.152212059497833 min:
+[2020-08-08 19:17:52,312][get_feature_trainer.py][INFO] ----------
+[2020-08-08 19:17:52,312][get_feature_trainer.py][INFO] Epoch 4/29
+[2020-08-08 19:17:52,313][get_feature_trainer.py][INFO] learning rate:0.0001915193598931715
+[2020-08-08 19:17:52,313][get_feature_trainer.py][INFO] ----------
+[2020-08-08 19:17:53,963][get_feature_trainer.py][INFO]  Epoch:4(1/688) loss:0.366 
+[2020-08-08 19:19:05,524][get_feature_trainer.py][INFO]  Epoch:4(101/688) loss:0.865 
+[2020-08-08 19:20:16,248][get_feature_trainer.py][INFO]  Epoch:4(201/688) loss:0.892 
+[2020-08-08 19:21:27,337][get_feature_trainer.py][INFO]  Epoch:4(301/688) loss:0.259 
+[2020-08-08 19:22:38,745][get_feature_trainer.py][INFO]  Epoch:4(401/688) loss:0.968 
+[2020-08-08 19:23:49,394][get_feature_trainer.py][INFO]  Epoch:4(501/688) loss:0.445 
+[2020-08-08 19:25:00,280][get_feature_trainer.py][INFO]  Epoch:4(601/688) loss:0.465 
+[2020-08-08 19:26:02,513][get_feature_trainer.py][INFO]  Epoch:4(689/688) loss:0.373 
+[2020-08-08 19:27:19,820][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9203007518796993, '缓行': 0.0, '拥堵': 0.7160120845921452}  各类F加权:0.613667401131227
+[2020-08-08 19:27:19,820][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.4641 valAcc: 0.8370
+[2020-08-08 19:29:01,006][get_feature_trainer.py][INFO] efficient-b5-c 第4 epoch 预测结果:{'畅通': 450, '缓行': 0, '拥堵': 150}
+[2020-08-08 19:29:01,006][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 19:29:01,006][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.96017699 0.         0.87544484] 加权f1:0.7173023021446793 
+[2020-08-08 19:29:01,007][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9283333333333333 Precision:[0.96444444 0.         0.82      ] Recall:[0.95594714 0.         0.9389313 ]
+[2020-08-08 19:29:01,016][get_feature_trainer.py][INFO] Epoch:[4/29]	 Loss=0.46682	 Acc=0.816 epoch_Time:8.170279888312022 min:
+[2020-08-08 19:29:01,264][get_feature_trainer.py][INFO] ----------
+[2020-08-08 19:29:01,264][get_feature_trainer.py][INFO] Epoch 5/29
+[2020-08-08 19:29:01,264][get_feature_trainer.py][INFO] learning rate:4.158064933479366e-10
+[2020-08-08 19:29:01,264][get_feature_trainer.py][INFO] ----------
+[2020-08-08 19:29:03,129][get_feature_trainer.py][INFO]  Epoch:5(1/688) loss:0.673 
+[2020-08-08 19:30:13,491][get_feature_trainer.py][INFO]  Epoch:5(101/688) loss:1.009 
+[2020-08-08 19:31:24,675][get_feature_trainer.py][INFO]  Epoch:5(201/688) loss:0.517 
+[2020-08-08 19:32:35,183][get_feature_trainer.py][INFO]  Epoch:5(301/688) loss:0.187 
+[2020-08-08 19:33:45,747][get_feature_trainer.py][INFO]  Epoch:5(401/688) loss:0.169 
+[2020-08-08 19:34:56,290][get_feature_trainer.py][INFO]  Epoch:5(501/688) loss:0.848 
+[2020-08-08 19:36:06,949][get_feature_trainer.py][INFO]  Epoch:5(601/688) loss:0.520 
+[2020-08-08 19:37:08,818][get_feature_trainer.py][INFO]  Epoch:5(689/688) loss:0.362 
+[2020-08-08 19:38:24,566][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9203007518796993, '缓行': 0.0, '拥堵': 0.7160120845921452}  各类F加权:0.613667401131227
+[2020-08-08 19:38:24,566][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.4641 valAcc: 0.8370
+[2020-08-08 19:40:05,970][get_feature_trainer.py][INFO] efficient-b5-c 第5 epoch 预测结果:{'畅通': 447, '缓行': 0, '拥堵': 153}
+[2020-08-08 19:40:05,970][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 19:40:05,971][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.95893452 0.         0.88028169] 加权f1:0.7199559175251287 
+[2020-08-08 19:40:05,971][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9283333333333333 Precision:[0.96644295 0.         0.81699346] Recall:[0.95154185 0.         0.95419847]
+[2020-08-08 19:40:05,981][get_feature_trainer.py][INFO] Epoch:[5/29]	 Loss=0.44569	 Acc=0.826 epoch_Time:8.126182727018993 min:
+[2020-08-08 19:40:06,261][get_feature_trainer.py][INFO] ----------
+[2020-08-08 19:40:06,261][get_feature_trainer.py][INFO] Epoch 6/29
+[2020-08-08 19:40:06,261][get_feature_trainer.py][INFO] learning rate:0.0018095526758540276
+[2020-08-08 19:40:06,261][get_feature_trainer.py][INFO] ----------
+[2020-08-08 19:40:08,705][get_feature_trainer.py][INFO]  Epoch:6(1/688) loss:0.216 
+[2020-08-08 19:41:19,032][get_feature_trainer.py][INFO]  Epoch:6(101/688) loss:0.546 
+[2020-08-08 19:42:30,077][get_feature_trainer.py][INFO]  Epoch:6(201/688) loss:1.055 
+[2020-08-08 19:43:41,383][get_feature_trainer.py][INFO]  Epoch:6(301/688) loss:0.412 
+[2020-08-08 19:44:52,657][get_feature_trainer.py][INFO]  Epoch:6(401/688) loss:0.177 
+[2020-08-08 19:46:04,361][get_feature_trainer.py][INFO]  Epoch:6(501/688) loss:0.644 
+[2020-08-08 19:47:14,246][get_feature_trainer.py][INFO]  Epoch:6(601/688) loss:0.443 
+[2020-08-08 19:48:15,910][get_feature_trainer.py][INFO]  Epoch:6(689/688) loss:0.476 
+[2020-08-08 19:49:32,034][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.8980658651332986, '缓行': 0.0, '拥堵': 0.6378378378378379}  各类F加权:0.5623158757293625
+[2020-08-08 19:49:32,035][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.5026 valAcc: 0.7935
+[2020-08-08 19:51:14,468][get_feature_trainer.py][INFO] efficient-b5-c 第6 epoch 预测结果:{'畅通': 410, '缓行': 0, '拥堵': 190}
+[2020-08-08 19:51:14,468][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 19:51:14,468][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.92824074 0.         0.79127726] 加权f1:0.660414503288335 
+[2020-08-08 19:51:14,469][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.88 Precision:[0.97804878 0.         0.66842105] Recall:[0.88325991 0.         0.96946565]
+[2020-08-08 19:51:14,475][get_feature_trainer.py][INFO] Epoch:[6/29]	 Loss=0.50664	 Acc=0.799 epoch_Time:8.161077570915221 min:
+[2020-08-08 19:51:14,689][get_feature_trainer.py][INFO] ----------
+[2020-08-08 19:51:14,690][get_feature_trainer.py][INFO] Epoch 7/29
+[2020-08-08 19:51:14,690][get_feature_trainer.py][INFO] learning rate:0.0013098841610217358
+[2020-08-08 19:51:14,690][get_feature_trainer.py][INFO] ----------
+[2020-08-08 19:51:16,334][get_feature_trainer.py][INFO]  Epoch:7(1/688) loss:0.555 
+[2020-08-08 19:52:26,090][get_feature_trainer.py][INFO]  Epoch:7(101/688) loss:0.428 
+[2020-08-08 19:53:36,450][get_feature_trainer.py][INFO]  Epoch:7(201/688) loss:0.327 
+[2020-08-08 19:54:47,055][get_feature_trainer.py][INFO]  Epoch:7(301/688) loss:0.679 
+[2020-08-08 19:55:58,159][get_feature_trainer.py][INFO]  Epoch:7(401/688) loss:0.236 
+[2020-08-08 19:57:08,969][get_feature_trainer.py][INFO]  Epoch:7(501/688) loss:0.656 
+[2020-08-08 19:58:20,296][get_feature_trainer.py][INFO]  Epoch:7(601/688) loss:0.331 
+[2020-08-08 19:59:21,690][get_feature_trainer.py][INFO]  Epoch:7(689/688) loss:0.242 
+[2020-08-08 20:00:38,792][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9150943396226415, '缓行': 0.03636363636363636, '拥堵': 0.6679245283018868}  各类F加权:0.5910463121783875
+[2020-08-08 20:00:38,793][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.4728 valAcc: 0.8326
+[2020-08-08 20:02:21,903][get_feature_trainer.py][INFO] efficient-b5-c 第7 epoch 预测结果:{'畅通': 494, '缓行': 0, '拥堵': 106}
+[2020-08-08 20:02:21,904][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 20:02:21,904][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.94936709 0.         0.83544304] 加权f1:0.691139240506329 
+[2020-08-08 20:02:21,904][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.915 Precision:[0.91093117 0.         0.93396226] Recall:[0.99118943 0.         0.75572519]
+[2020-08-08 20:02:21,911][get_feature_trainer.py][INFO] Epoch:[7/29]	 Loss=0.45415	 Acc=0.818 epoch_Time:8.116982241471609 min:
+[2020-08-08 20:02:22,110][get_feature_trainer.py][INFO] ----------
+[2020-08-08 20:02:22,111][get_feature_trainer.py][INFO] Epoch 8/29
+[2020-08-08 20:02:22,111][get_feature_trainer.py][INFO] learning rate:0.000691850429254387
+[2020-08-08 20:02:22,111][get_feature_trainer.py][INFO] ----------
+[2020-08-08 20:02:23,935][get_feature_trainer.py][INFO]  Epoch:8(1/688) loss:0.330 
+[2020-08-08 20:03:34,296][get_feature_trainer.py][INFO]  Epoch:8(101/688) loss:0.408 
+[2020-08-08 20:04:45,509][get_feature_trainer.py][INFO]  Epoch:8(201/688) loss:0.155 
+[2020-08-08 20:05:56,568][get_feature_trainer.py][INFO]  Epoch:8(301/688) loss:0.250 
+[2020-08-08 20:07:07,001][get_feature_trainer.py][INFO]  Epoch:8(401/688) loss:0.257 
+[2020-08-08 20:08:18,068][get_feature_trainer.py][INFO]  Epoch:8(501/688) loss:0.113 
+[2020-08-08 20:09:29,413][get_feature_trainer.py][INFO]  Epoch:8(601/688) loss:0.397 
+[2020-08-08 20:10:31,336][get_feature_trainer.py][INFO]  Epoch:8(689/688) loss:0.267 
+[2020-08-08 20:11:45,282][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9112903225806452, '缓行': 0.17341040462427745, '拥堵': 0.6633499170812605}  各类F加权:0.6149500956897408
+[2020-08-08 20:11:45,283][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.4976 valAcc: 0.8109
+[2020-08-08 20:13:27,709][get_feature_trainer.py][INFO] efficient-b5-c 第8 epoch 预测结果:{'畅通': 449, '缓行': 14, '拥堵': 137}
+[2020-08-08 20:13:27,709][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 20:13:27,710][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.95902547 0.4137931  0.88059701] 加权f1:0.8029219237755545 
+[2020-08-08 20:13:27,710][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9283333333333333 Precision:[0.96436526 0.42857143 0.86131387] Recall:[0.95374449 0.4        0.90076336]
+[2020-08-08 20:13:27,716][get_feature_trainer.py][INFO] Epoch:[8/29]	 Loss=0.38158	 Acc=0.848 epoch_Time:8.154031689961752 min:
+[2020-08-08 20:13:27,916][get_feature_trainer.py][INFO] ----------
+[2020-08-08 20:13:27,916][get_feature_trainer.py][INFO] Epoch 9/29
+[2020-08-08 20:13:27,916][get_feature_trainer.py][INFO] learning rate:0.00019151935989317182
+[2020-08-08 20:13:27,916][get_feature_trainer.py][INFO] ----------
+[2020-08-08 20:13:30,071][get_feature_trainer.py][INFO]  Epoch:9(1/688) loss:0.652 
+[2020-08-08 20:14:40,893][get_feature_trainer.py][INFO]  Epoch:9(101/688) loss:1.123 
+[2020-08-08 20:15:51,328][get_feature_trainer.py][INFO]  Epoch:9(201/688) loss:0.903 
+[2020-08-08 20:17:02,546][get_feature_trainer.py][INFO]  Epoch:9(301/688) loss:0.263 
+[2020-08-08 20:18:13,139][get_feature_trainer.py][INFO]  Epoch:9(401/688) loss:0.726 
+[2020-08-08 20:19:23,948][get_feature_trainer.py][INFO]  Epoch:9(501/688) loss:0.120 
+[2020-08-08 20:20:35,157][get_feature_trainer.py][INFO]  Epoch:9(601/688) loss:0.097 
+[2020-08-08 20:21:37,547][get_feature_trainer.py][INFO]  Epoch:9(689/688) loss:0.500 
+[2020-08-08 20:22:51,741][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9151364764267991, '缓行': 0.12121212121212122, '拥堵': 0.6753670473083198}  各类F加权:0.6124899479127759
+[2020-08-08 20:22:51,741][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.5165 valAcc: 0.8239
+[2020-08-08 20:24:35,354][get_feature_trainer.py][INFO] efficient-b5-c 第9 epoch 预测结果:{'畅通': 458, '缓行': 5, '拥堵': 137}
+[2020-08-08 20:24:35,354][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 20:24:35,355][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.95175439 0.2        0.85820896] 加权f1:0.7452762503273107 
+[2020-08-08 20:24:35,355][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9183333333333333 Precision:[0.94759825 0.4        0.83941606] Recall:[0.95594714 0.13333333 0.8778626 ]
+[2020-08-08 20:24:35,361][get_feature_trainer.py][INFO] Epoch:[9/29]	 Loss=0.33916	 Acc=0.864 epoch_Time:8.160782166322072 min:
+[2020-08-08 20:24:35,562][get_feature_trainer.py][INFO] ----------
+[2020-08-08 20:24:35,562][get_feature_trainer.py][INFO] Epoch 10/29
+[2020-08-08 20:24:35,562][get_feature_trainer.py][INFO] learning rate:4.158064933479366e-10
+[2020-08-08 20:24:35,562][get_feature_trainer.py][INFO] ----------
+[2020-08-08 20:24:37,322][get_feature_trainer.py][INFO]  Epoch:10(1/688) loss:0.727 
+[2020-08-08 20:25:47,840][get_feature_trainer.py][INFO]  Epoch:10(101/688) loss:0.110 
+[2020-08-08 20:26:58,997][get_feature_trainer.py][INFO]  Epoch:10(201/688) loss:0.086 
+[2020-08-08 20:28:09,574][get_feature_trainer.py][INFO]  Epoch:10(301/688) loss:0.531 
+[2020-08-08 20:29:20,209][get_feature_trainer.py][INFO]  Epoch:10(401/688) loss:0.187 
+[2020-08-08 20:30:30,985][get_feature_trainer.py][INFO]  Epoch:10(501/688) loss:0.417 
+[2020-08-08 20:31:42,621][get_feature_trainer.py][INFO]  Epoch:10(601/688) loss:0.194 
+[2020-08-08 20:32:45,161][get_feature_trainer.py][INFO]  Epoch:10(689/688) loss:0.400 
+[2020-08-08 20:33:59,180][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9151364764267991, '缓行': 0.12121212121212122, '拥堵': 0.6753670473083198}  各类F加权:0.6124899479127759
+[2020-08-08 20:33:59,180][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.5165 valAcc: 0.8239
+[2020-08-08 20:35:51,322][get_feature_trainer.py][INFO] efficient-b5-c 第10 epoch 预测结果:{'畅通': 459, '缓行': 3, '拥堵': 138}
+[2020-08-08 20:35:51,322][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 20:35:51,322][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.95071194 0.11111111 0.86245353] 加权f1:0.7298367289140792 
+[2020-08-08 20:35:51,323][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9183333333333333 Precision:[0.94553377 0.33333333 0.84057971] Recall:[0.95594714 0.06666667 0.88549618]
+[2020-08-08 20:35:51,330][get_feature_trainer.py][INFO] Epoch:[10/29]	 Loss=0.31093	 Acc=0.864 epoch_Time:8.160262068112692 min:
+[2020-08-08 20:35:51,536][get_feature_trainer.py][INFO] ----------
+[2020-08-08 20:35:51,536][get_feature_trainer.py][INFO] Epoch 11/29
+[2020-08-08 20:35:51,536][get_feature_trainer.py][INFO] learning rate:0.0018095526758540278
+[2020-08-08 20:35:51,536][get_feature_trainer.py][INFO] ----------
+[2020-08-08 20:35:53,394][get_feature_trainer.py][INFO]  Epoch:11(1/688) loss:0.111 
+[2020-08-08 20:37:05,250][get_feature_trainer.py][INFO]  Epoch:11(101/688) loss:0.782 
+[2020-08-08 20:38:16,495][get_feature_trainer.py][INFO]  Epoch:11(201/688) loss:0.346 
+[2020-08-08 20:39:27,755][get_feature_trainer.py][INFO]  Epoch:11(301/688) loss:0.514 
+[2020-08-08 20:40:38,785][get_feature_trainer.py][INFO]  Epoch:11(401/688) loss:0.728 
+[2020-08-08 20:41:49,676][get_feature_trainer.py][INFO]  Epoch:11(501/688) loss:0.080 
+[2020-08-08 20:42:59,869][get_feature_trainer.py][INFO]  Epoch:11(601/688) loss:0.420 
+[2020-08-08 20:44:01,341][get_feature_trainer.py][INFO]  Epoch:11(689/688) loss:0.332 
+[2020-08-08 20:45:16,796][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9177277179236043, '缓行': 0.037383177570093455, '拥堵': 0.690671031096563}  各类F加权:0.6054247977566773
+[2020-08-08 20:45:16,796][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.4947 valAcc: 0.8333
+[2020-08-08 20:46:58,809][get_feature_trainer.py][INFO] efficient-b5-c 第11 epoch 预测结果:{'畅通': 463, '缓行': 0, '拥堵': 137}
+[2020-08-08 20:46:58,809][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 20:46:58,809][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.96183206 0.         0.88059701] 加权f1:0.7207246211689643 
+[2020-08-08 20:46:58,810][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9316666666666666 Precision:[0.9524838  0.         0.86131387] Recall:[0.97136564 0.         0.90076336]
+[2020-08-08 20:46:58,816][get_feature_trainer.py][INFO] Epoch:[11/29]	 Loss=0.41811	 Acc=0.833 epoch_Time:8.163698828220367 min:
+[2020-08-08 20:46:59,012][get_feature_trainer.py][INFO] ----------
+[2020-08-08 20:46:59,012][get_feature_trainer.py][INFO] Epoch 12/29
+[2020-08-08 20:46:59,012][get_feature_trainer.py][INFO] learning rate:0.0013098841610217362
+[2020-08-08 20:46:59,012][get_feature_trainer.py][INFO] ----------
+[2020-08-08 20:47:01,091][get_feature_trainer.py][INFO]  Epoch:12(1/688) loss:0.662 
+[2020-08-08 20:48:11,818][get_feature_trainer.py][INFO]  Epoch:12(101/688) loss:0.109 
+[2020-08-08 20:49:22,534][get_feature_trainer.py][INFO]  Epoch:12(201/688) loss:0.758 
+[2020-08-08 20:50:33,414][get_feature_trainer.py][INFO]  Epoch:12(301/688) loss:0.252 
+[2020-08-08 20:51:44,260][get_feature_trainer.py][INFO]  Epoch:12(401/688) loss:0.386 
+[2020-08-08 20:52:55,323][get_feature_trainer.py][INFO]  Epoch:12(501/688) loss:0.436 
+[2020-08-08 20:54:06,004][get_feature_trainer.py][INFO]  Epoch:12(601/688) loss:0.163 
+[2020-08-08 20:55:07,767][get_feature_trainer.py][INFO]  Epoch:12(689/688) loss:0.126 
+[2020-08-08 20:56:22,563][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9074537268634317, '缓行': 0.0, '拥堵': 0.6531881804043546}  各类F加权:0.5734036536152991
+[2020-08-08 20:56:22,563][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.5687 valAcc: 0.8094
+[2020-08-08 20:58:03,820][get_feature_trainer.py][INFO] efficient-b5-c 第12 epoch 预测结果:{'畅通': 451, '缓行': 5, '拥堵': 144}
+[2020-08-08 20:58:03,820][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 20:58:03,821][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.94143646 0.2        0.79272727] 加权f1:0.7039236564540432 
+[2020-08-08 20:58:03,821][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.895 Precision:[0.94456763 0.4        0.75694444] Recall:[0.93832599 0.13333333 0.83206107]
+[2020-08-08 20:58:03,827][get_feature_trainer.py][INFO] Epoch:[12/29]	 Loss=0.35279	 Acc=0.856 epoch_Time:8.14618449608485 min:
+[2020-08-08 20:58:04,018][get_feature_trainer.py][INFO] ----------
+[2020-08-08 20:58:04,018][get_feature_trainer.py][INFO] Epoch 13/29
+[2020-08-08 20:58:04,018][get_feature_trainer.py][INFO] learning rate:0.0006918504292543872
+[2020-08-08 20:58:04,018][get_feature_trainer.py][INFO] ----------
+[2020-08-08 20:58:06,129][get_feature_trainer.py][INFO]  Epoch:13(1/688) loss:0.643 
+[2020-08-08 20:59:16,143][get_feature_trainer.py][INFO]  Epoch:13(101/688) loss:0.097 
+[2020-08-08 21:00:26,642][get_feature_trainer.py][INFO]  Epoch:13(201/688) loss:0.151 
+[2020-08-08 21:01:37,303][get_feature_trainer.py][INFO]  Epoch:13(301/688) loss:0.214 
+[2020-08-08 21:02:47,952][get_feature_trainer.py][INFO]  Epoch:13(401/688) loss:0.095 
+[2020-08-08 21:03:58,945][get_feature_trainer.py][INFO]  Epoch:13(501/688) loss:0.494 
+[2020-08-08 21:05:09,574][get_feature_trainer.py][INFO]  Epoch:13(601/688) loss:0.169 
+[2020-08-08 21:06:11,248][get_feature_trainer.py][INFO]  Epoch:13(689/688) loss:0.158 
+[2020-08-08 21:07:25,719][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9128463476070529, '缓行': 0.2073170731707317, '拥堵': 0.667757774140753}  各类F加权:0.6246873486400087
+[2020-08-08 21:07:25,719][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.6054 valAcc: 0.8167
+[2020-08-08 21:09:07,826][get_feature_trainer.py][INFO] efficient-b5-c 第13 epoch 预测结果:{'畅通': 447, '缓行': 15, '拥堵': 138}
+[2020-08-08 21:09:07,826][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 21:09:07,827][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.95449501 0.33333333 0.83271375] 加权f1:0.7571939205646486 
+[2020-08-08 21:09:07,827][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9116666666666666 Precision:[0.96196868 0.33333333 0.8115942 ] Recall:[0.94713656 0.33333333 0.85496183]
+[2020-08-08 21:09:07,834][get_feature_trainer.py][INFO] Epoch:[13/29]	 Loss=0.30602	 Acc=0.879 epoch_Time:8.120762340227763 min:
+[2020-08-08 21:09:08,051][get_feature_trainer.py][INFO] ----------
+[2020-08-08 21:09:08,052][get_feature_trainer.py][INFO] Epoch 14/29
+[2020-08-08 21:09:08,052][get_feature_trainer.py][INFO] learning rate:0.00019151935989317182
+[2020-08-08 21:09:08,052][get_feature_trainer.py][INFO] ----------
+[2020-08-08 21:09:10,256][get_feature_trainer.py][INFO]  Epoch:14(1/688) loss:0.464 
+[2020-08-08 21:10:21,124][get_feature_trainer.py][INFO]  Epoch:14(101/688) loss:0.274 
+[2020-08-08 21:11:32,568][get_feature_trainer.py][INFO]  Epoch:14(201/688) loss:0.259 
+[2020-08-08 21:12:43,936][get_feature_trainer.py][INFO]  Epoch:14(301/688) loss:0.043 
+[2020-08-08 21:13:54,920][get_feature_trainer.py][INFO]  Epoch:14(401/688) loss:0.227 
+[2020-08-08 21:15:05,528][get_feature_trainer.py][INFO]  Epoch:14(501/688) loss:0.163 
+[2020-08-08 21:16:16,306][get_feature_trainer.py][INFO]  Epoch:14(601/688) loss:1.427 
+[2020-08-08 21:17:19,261][get_feature_trainer.py][INFO]  Epoch:14(689/688) loss:0.366 
+[2020-08-08 21:18:35,138][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9126984126984127, '缓行': 0.1893491124260355, '拥堵': 0.6782608695652174}  各类F加权:0.62736602676402
+[2020-08-08 21:18:35,138][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.6265 valAcc: 0.8196
+[2020-08-08 21:20:18,509][get_feature_trainer.py][INFO] efficient-b5-c 第14 epoch 预测结果:{'畅通': 449, '缓行': 17, '拥堵': 134}
+[2020-08-08 21:20:18,509][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 21:20:18,510][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.95681063 0.3125     0.81509434] 加权f1:0.742918730019432 
+[2020-08-08 21:20:18,510][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9083333333333333 Precision:[0.96213808 0.29411765 0.80597015] Recall:[0.95154185 0.33333333 0.82442748]
+[2020-08-08 21:20:18,519][get_feature_trainer.py][INFO] Epoch:[14/29]	 Loss=0.24485	 Acc=0.905 epoch_Time:8.187095856666565 min:
+[2020-08-08 21:20:18,735][get_feature_trainer.py][INFO] ----------
+[2020-08-08 21:20:18,735][get_feature_trainer.py][INFO] Epoch 15/29
+[2020-08-08 21:20:18,735][get_feature_trainer.py][INFO] learning rate:4.158064933479366e-10
+[2020-08-08 21:20:18,735][get_feature_trainer.py][INFO] ----------
+[2020-08-08 21:20:20,461][get_feature_trainer.py][INFO]  Epoch:15(1/688) loss:0.043 
+[2020-08-08 21:21:30,872][get_feature_trainer.py][INFO]  Epoch:15(101/688) loss:0.393 
+[2020-08-08 21:22:40,462][get_feature_trainer.py][INFO]  Epoch:15(201/688) loss:0.071 
+[2020-08-08 21:23:51,803][get_feature_trainer.py][INFO]  Epoch:15(301/688) loss:0.017 
+[2020-08-08 21:25:03,208][get_feature_trainer.py][INFO]  Epoch:15(401/688) loss:0.135 
+[2020-08-08 21:26:14,017][get_feature_trainer.py][INFO]  Epoch:15(501/688) loss:0.173 
+[2020-08-08 21:27:24,867][get_feature_trainer.py][INFO]  Epoch:15(601/688) loss:0.516 
+[2020-08-08 21:28:27,549][get_feature_trainer.py][INFO]  Epoch:15(689/688) loss:0.415 
+[2020-08-08 21:29:42,152][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9126984126984127, '缓行': 0.1893491124260355, '拥堵': 0.6782608695652174}  各类F加权:0.62736602676402
+[2020-08-08 21:29:42,152][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.6265 valAcc: 0.8196
+[2020-08-08 21:31:25,135][get_feature_trainer.py][INFO] efficient-b5-c 第15 epoch 预测结果:{'畅通': 452, '缓行': 17, '拥堵': 131}
+[2020-08-08 21:31:25,135][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 21:31:25,136][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.95584989 0.375      0.81679389] 加权f1:0.7562463138028075 
+[2020-08-08 21:31:25,136][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.91 Precision:[0.9579646  0.35294118 0.81679389] Recall:[0.95374449 0.4        0.81679389]
+[2020-08-08 21:31:25,142][get_feature_trainer.py][INFO] Epoch:[15/29]	 Loss=0.24261	 Acc=0.906 epoch_Time:8.14718857606252 min:
+[2020-08-08 21:31:25,334][get_feature_trainer.py][INFO] ----------
+[2020-08-08 21:31:25,335][get_feature_trainer.py][INFO] Epoch 16/29
+[2020-08-08 21:31:25,335][get_feature_trainer.py][INFO] learning rate:0.0018095526758540278
+[2020-08-08 21:31:25,335][get_feature_trainer.py][INFO] ----------
+[2020-08-08 21:31:27,532][get_feature_trainer.py][INFO]  Epoch:16(1/688) loss:0.612 
+[2020-08-08 21:32:38,617][get_feature_trainer.py][INFO]  Epoch:16(101/688) loss:0.059 
+[2020-08-08 21:33:50,453][get_feature_trainer.py][INFO]  Epoch:16(201/688) loss:0.160 
+[2020-08-08 21:35:01,500][get_feature_trainer.py][INFO]  Epoch:16(301/688) loss:0.117 
+[2020-08-08 21:36:12,738][get_feature_trainer.py][INFO]  Epoch:16(401/688) loss:0.148 
+[2020-08-08 21:37:24,046][get_feature_trainer.py][INFO]  Epoch:16(501/688) loss:0.517 
+[2020-08-08 21:38:35,175][get_feature_trainer.py][INFO]  Epoch:16(601/688) loss:0.152 
+[2020-08-08 21:39:36,981][get_feature_trainer.py][INFO]  Epoch:16(689/688) loss:0.670 
+[2020-08-08 21:40:40,051][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9160671462829737, '缓行': 0.03333333333333333, '拥堵': 0.6342342342342342}  各类F加权:0.5704206364638019
+[2020-08-08 21:40:40,052][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.6666 valAcc: 0.8210
+[2020-08-08 21:42:36,385][get_feature_trainer.py][INFO] efficient-b5-c 第16 epoch 预测结果:{'畅通': 482, '缓行': 0, '拥堵': 118}
+[2020-08-08 21:42:36,385][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 21:42:36,385][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.9508547  0.         0.84337349] 加权f1:0.6961950365564823 
+[2020-08-08 21:42:36,386][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9166666666666666 Precision:[0.92323651 0.         0.88983051] Recall:[0.98017621 0.         0.80152672]
+[2020-08-08 21:42:36,394][get_feature_trainer.py][INFO] Epoch:[16/29]	 Loss=0.34209	 Acc=0.867 epoch_Time:8.19436604976654 min:
+[2020-08-08 21:42:36,604][get_feature_trainer.py][INFO] ----------
+[2020-08-08 21:42:36,604][get_feature_trainer.py][INFO] Epoch 17/29
+[2020-08-08 21:42:36,604][get_feature_trainer.py][INFO] learning rate:0.0013098841610217353
+[2020-08-08 21:42:36,604][get_feature_trainer.py][INFO] ----------
+[2020-08-08 21:42:38,399][get_feature_trainer.py][INFO]  Epoch:17(1/688) loss:0.158 
+[2020-08-08 21:43:49,189][get_feature_trainer.py][INFO]  Epoch:17(101/688) loss:0.218 
+[2020-08-08 21:45:00,834][get_feature_trainer.py][INFO]  Epoch:17(201/688) loss:0.269 
+[2020-08-08 21:46:12,532][get_feature_trainer.py][INFO]  Epoch:17(301/688) loss:0.475 
+[2020-08-08 21:47:23,613][get_feature_trainer.py][INFO]  Epoch:17(401/688) loss:0.010 
+[2020-08-08 21:48:34,889][get_feature_trainer.py][INFO]  Epoch:17(501/688) loss:0.493 
+[2020-08-08 21:49:46,845][get_feature_trainer.py][INFO]  Epoch:17(601/688) loss:0.367 
+[2020-08-08 21:50:48,911][get_feature_trainer.py][INFO]  Epoch:17(689/688) loss:0.280 
+[2020-08-08 21:51:53,078][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9043303121852971, '缓行': 0.17351598173515984, '拥堵': 0.590990990990991}  各类F加权:0.570163853378686
+[2020-08-08 21:51:53,079][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.6973 valAcc: 0.7833
+[2020-08-08 21:53:54,859][get_feature_trainer.py][INFO] efficient-b5-c 第17 epoch 预测结果:{'畅通': 453, '缓行': 38, '拥堵': 109}
+[2020-08-08 21:53:54,859][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 21:53:54,859][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.9570011  0.30188679 0.76666667] 加权f1:0.7117775789977325 
+[2020-08-08 21:53:54,860][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.89 Precision:[0.9580574  0.21052632 0.8440367 ] Recall:[0.95594714 0.53333333 0.70229008]
+[2020-08-08 21:53:54,869][get_feature_trainer.py][INFO] Epoch:[17/29]	 Loss=0.28298	 Acc=0.890 epoch_Time:8.205402719974519 min:
+[2020-08-08 21:53:55,087][get_feature_trainer.py][INFO] ----------
+[2020-08-08 21:53:55,087][get_feature_trainer.py][INFO] Epoch 18/29
+[2020-08-08 21:53:55,087][get_feature_trainer.py][INFO] learning rate:0.0006918504292543863
+[2020-08-08 21:53:55,087][get_feature_trainer.py][INFO] ----------
+[2020-08-08 21:53:57,329][get_feature_trainer.py][INFO]  Epoch:18(1/688) loss:0.176 
+[2020-08-08 21:55:08,689][get_feature_trainer.py][INFO]  Epoch:18(101/688) loss:0.032 
+[2020-08-08 21:56:21,321][get_feature_trainer.py][INFO]  Epoch:18(201/688) loss:0.693 
+[2020-08-08 21:57:33,869][get_feature_trainer.py][INFO]  Epoch:18(301/688) loss:0.121 
+[2020-08-08 21:58:46,714][get_feature_trainer.py][INFO]  Epoch:18(401/688) loss:0.101 
+[2020-08-08 21:59:58,428][get_feature_trainer.py][INFO]  Epoch:18(501/688) loss:0.103 
+[2020-08-08 22:01:10,438][get_feature_trainer.py][INFO]  Epoch:18(601/688) loss:0.230 
+[2020-08-08 22:02:13,926][get_feature_trainer.py][INFO]  Epoch:18(689/688) loss:1.258 
+[2020-08-08 22:03:18,155][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9047381546134664, '缓行': 0.19875776397515527, '拥堵': 0.6094276094276094}  各类F加权:0.5863557493742899
+[2020-08-08 22:03:18,155][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.7397 valAcc: 0.8000
+[2020-08-08 22:05:19,365][get_feature_trainer.py][INFO] efficient-b5-c 第18 epoch 预测结果:{'畅通': 460, '缓行': 13, '拥堵': 127}
+[2020-08-08 22:05:19,366][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 22:05:19,366][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.94748359 0.35714286 0.82170543] 加权f1:0.7539485449668137 
+[2020-08-08 22:05:19,366][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9066666666666666 Precision:[0.94130435 0.38461538 0.83464567] Recall:[0.95374449 0.33333333 0.80916031]
+[2020-08-08 22:05:19,374][get_feature_trainer.py][INFO] Epoch:[18/29]	 Loss=0.21645	 Acc=0.915 epoch_Time:8.314262509346008 min:
+[2020-08-08 22:05:19,584][get_feature_trainer.py][INFO] ----------
+[2020-08-08 22:05:19,585][get_feature_trainer.py][INFO] Epoch 19/29
+[2020-08-08 22:05:19,585][get_feature_trainer.py][INFO] learning rate:0.00019151935989317127
+[2020-08-08 22:05:19,585][get_feature_trainer.py][INFO] ----------
+[2020-08-08 22:05:21,455][get_feature_trainer.py][INFO]  Epoch:19(1/688) loss:0.174 
+[2020-08-08 22:06:33,264][get_feature_trainer.py][INFO]  Epoch:19(101/688) loss:0.149 
+[2020-08-08 22:07:45,255][get_feature_trainer.py][INFO]  Epoch:19(201/688) loss:0.165 
+[2020-08-08 22:08:57,440][get_feature_trainer.py][INFO]  Epoch:19(301/688) loss:0.117 
+[2020-08-08 22:10:09,251][get_feature_trainer.py][INFO]  Epoch:19(401/688) loss:0.378 
+[2020-08-08 22:11:20,902][get_feature_trainer.py][INFO]  Epoch:19(501/688) loss:0.009 
+[2020-08-08 22:12:32,422][get_feature_trainer.py][INFO]  Epoch:19(601/688) loss:0.437 
+[2020-08-08 22:13:35,356][get_feature_trainer.py][INFO]  Epoch:19(689/688) loss:0.086 
+[2020-08-08 22:14:37,875][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9059059059059059, '缓行': 0.17751479289940827, '拥堵': 0.6239460370994941}  各类F加权:0.5910517620207594
+[2020-08-08 22:14:37,875][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.8143 valAcc: 0.8007
+[2020-08-08 22:16:39,564][get_feature_trainer.py][INFO] efficient-b5-c 第19 epoch 预测结果:{'畅通': 456, '缓行': 11, '拥堵': 133}
+[2020-08-08 22:16:39,565][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 22:16:39,565][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.94945055 0.46153846 0.82575758] 加权f1:0.7776523476523478 
+[2020-08-08 22:16:39,566][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9116666666666666 Precision:[0.94736842 0.54545455 0.81954887] Recall:[0.95154185 0.4        0.83206107]
+[2020-08-08 22:16:39,575][get_feature_trainer.py][INFO] Epoch:[19/29]	 Loss=0.18660	 Acc=0.930 epoch_Time:8.26313807964325 min:
+[2020-08-08 22:16:39,807][get_feature_trainer.py][INFO] ----------
+[2020-08-08 22:16:39,808][get_feature_trainer.py][INFO] Epoch 20/29
+[2020-08-08 22:16:39,808][get_feature_trainer.py][INFO] learning rate:4.158064933479366e-10
+[2020-08-08 22:16:39,808][get_feature_trainer.py][INFO] ----------
+[2020-08-08 22:16:41,620][get_feature_trainer.py][INFO]  Epoch:20(1/688) loss:0.024 
+[2020-08-08 22:17:53,035][get_feature_trainer.py][INFO]  Epoch:20(101/688) loss:0.135 
+[2020-08-08 22:19:05,224][get_feature_trainer.py][INFO]  Epoch:20(201/688) loss:0.236 
+[2020-08-08 22:20:17,278][get_feature_trainer.py][INFO]  Epoch:20(301/688) loss:0.050 
+[2020-08-08 22:21:28,980][get_feature_trainer.py][INFO]  Epoch:20(401/688) loss:0.110 
+[2020-08-08 22:22:41,177][get_feature_trainer.py][INFO]  Epoch:20(501/688) loss:0.145 
+[2020-08-08 22:23:52,762][get_feature_trainer.py][INFO]  Epoch:20(601/688) loss:0.047 
+[2020-08-08 22:24:54,278][get_feature_trainer.py][INFO]  Epoch:20(689/688) loss:0.271 
+[2020-08-08 22:26:10,085][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9059059059059059, '缓行': 0.17751479289940827, '拥堵': 0.6239460370994941}  各类F加权:0.5910517620207594
+[2020-08-08 22:26:10,086][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.8143 valAcc: 0.8007
+[2020-08-08 22:27:55,559][get_feature_trainer.py][INFO] efficient-b5-c 第20 epoch 预测结果:{'畅通': 455, '缓行': 14, '拥堵': 131}
+[2020-08-08 22:27:55,560][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 22:27:55,560][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.95049505 0.48275862 0.82442748] 加权f1:0.7813072225885396 
+[2020-08-08 22:27:55,561][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9116666666666666 Precision:[0.94945055 0.5        0.82442748] Recall:[0.95154185 0.46666667 0.82442748]
+[2020-08-08 22:27:55,569][get_feature_trainer.py][INFO] Epoch:[20/29]	 Loss=0.16562	 Acc=0.928 epoch_Time:8.241449308395385 min:
+[2020-08-08 22:27:55,769][get_feature_trainer.py][INFO] ----------
+[2020-08-08 22:27:55,769][get_feature_trainer.py][INFO] Epoch 21/29
+[2020-08-08 22:27:55,769][get_feature_trainer.py][INFO] learning rate:0.0018095526758540271
+[2020-08-08 22:27:55,769][get_feature_trainer.py][INFO] ----------
+[2020-08-08 22:27:57,950][get_feature_trainer.py][INFO]  Epoch:21(1/688) loss:0.248 
+[2020-08-08 22:29:08,745][get_feature_trainer.py][INFO]  Epoch:21(101/688) loss:0.500 
+[2020-08-08 22:30:19,968][get_feature_trainer.py][INFO]  Epoch:21(201/688) loss:0.213 
+[2020-08-08 22:31:31,738][get_feature_trainer.py][INFO]  Epoch:21(301/688) loss:0.020 
+[2020-08-08 22:32:43,018][get_feature_trainer.py][INFO]  Epoch:21(401/688) loss:0.254 
+[2020-08-08 22:33:54,376][get_feature_trainer.py][INFO]  Epoch:21(501/688) loss:0.011 
+[2020-08-08 22:35:05,681][get_feature_trainer.py][INFO]  Epoch:21(601/688) loss:0.133 
+[2020-08-08 22:36:08,959][get_feature_trainer.py][INFO]  Epoch:21(689/688) loss:0.213 
+[2020-08-08 22:37:23,861][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9039323046291688, '缓行': 0.16279069767441862, '拥堵': 0.6010362694300518}  各类F加权:0.5739663621187486
+[2020-08-08 22:37:23,862][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.6641 valAcc: 0.7942
+[2020-08-08 22:39:06,740][get_feature_trainer.py][INFO] efficient-b5-c 第21 epoch 预测结果:{'畅通': 454, '缓行': 22, '拥堵': 124}
+[2020-08-08 22:39:06,740][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 22:39:06,740][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.95814978 0.37837838 0.83137255] 加权f1:0.7661291610345771 
+[2020-08-08 22:39:06,741][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9133333333333333 Precision:[0.95814978 0.31818182 0.85483871] Recall:[0.95814978 0.46666667 0.80916031]
+[2020-08-08 22:39:06,747][get_feature_trainer.py][INFO] Epoch:[21/29]	 Loss=0.27675	 Acc=0.893 epoch_Time:8.22010467449824 min:
+[2020-08-08 22:39:06,936][get_feature_trainer.py][INFO] ----------
+[2020-08-08 22:39:06,936][get_feature_trainer.py][INFO] Epoch 22/29
+[2020-08-08 22:39:06,936][get_feature_trainer.py][INFO] learning rate:0.0013098841610217353
+[2020-08-08 22:39:06,936][get_feature_trainer.py][INFO] ----------
+[2020-08-08 22:39:09,089][get_feature_trainer.py][INFO]  Epoch:22(1/688) loss:0.128 
+[2020-08-08 22:40:19,800][get_feature_trainer.py][INFO]  Epoch:22(101/688) loss:0.662 
+[2020-08-08 22:41:31,075][get_feature_trainer.py][INFO]  Epoch:22(201/688) loss:0.077 
+[2020-08-08 22:42:42,320][get_feature_trainer.py][INFO]  Epoch:22(301/688) loss:0.167 
+[2020-08-08 22:43:54,620][get_feature_trainer.py][INFO]  Epoch:22(401/688) loss:0.399 
+[2020-08-08 22:45:07,059][get_feature_trainer.py][INFO]  Epoch:22(501/688) loss:0.070 
+[2020-08-08 22:46:18,758][get_feature_trainer.py][INFO]  Epoch:22(601/688) loss:0.015 
+[2020-08-08 22:47:20,714][get_feature_trainer.py][INFO]  Epoch:22(689/688) loss:0.034 
+[2020-08-08 22:48:32,842][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.8452579034941763, '缓行': 0.1264367816091954, '拥堵': 0.5542784163473818}  各类F加权:0.5269059868291035
+[2020-08-08 22:48:32,842][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.9897 valAcc: 0.7174
+[2020-08-08 22:50:13,515][get_feature_trainer.py][INFO] efficient-b5-c 第22 epoch 预测结果:{'畅通': 375, '缓行': 18, '拥堵': 207}
+[2020-08-08 22:50:13,515][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 22:50:13,516][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.89746683 0.36363636 0.74556213] 加权f1:0.6995579163343848 
+[2020-08-08 22:50:13,516][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.84 Precision:[0.992      0.33333333 0.60869565] Recall:[0.81938326 0.4        0.96183206]
+[2020-08-08 22:50:13,523][get_feature_trainer.py][INFO] Epoch:[22/29]	 Loss=0.22397	 Acc=0.914 epoch_Time:8.229906670252483 min:
+[2020-08-08 22:50:13,717][get_feature_trainer.py][INFO] ----------
+[2020-08-08 22:50:13,717][get_feature_trainer.py][INFO] Epoch 23/29
+[2020-08-08 22:50:13,717][get_feature_trainer.py][INFO] learning rate:0.0006918504292543863
+[2020-08-08 22:50:13,717][get_feature_trainer.py][INFO] ----------
+[2020-08-08 22:50:15,489][get_feature_trainer.py][INFO]  Epoch:23(1/688) loss:0.203 
+[2020-08-08 22:51:26,623][get_feature_trainer.py][INFO]  Epoch:23(101/688) loss:0.039 
+[2020-08-08 22:52:36,735][get_feature_trainer.py][INFO]  Epoch:23(201/688) loss:0.060 
+[2020-08-08 22:53:47,769][get_feature_trainer.py][INFO]  Epoch:23(301/688) loss:0.110 
+[2020-08-08 22:54:57,821][get_feature_trainer.py][INFO]  Epoch:23(401/688) loss:0.336 
+[2020-08-08 22:56:08,730][get_feature_trainer.py][INFO]  Epoch:23(501/688) loss:0.177 
+[2020-08-08 22:57:19,777][get_feature_trainer.py][INFO]  Epoch:23(601/688) loss:0.462 
+[2020-08-08 22:58:21,209][get_feature_trainer.py][INFO]  Epoch:23(689/688) loss:0.097 
+[2020-08-08 22:59:34,721][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9035222052067382, '缓行': 0.2566844919786096, '拥堵': 0.6319218241042346}  各类F加权:0.6111944338996103
+[2020-08-08 22:59:34,721][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.7538 valAcc: 0.7993
+[2020-08-08 23:01:14,556][get_feature_trainer.py][INFO] efficient-b5-c 第23 epoch 预测结果:{'畅通': 432, '缓行': 24, '拥堵': 144}
+[2020-08-08 23:01:14,556][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 23:01:14,556][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.93905192 0.35897436 0.78545455] 加权f1:0.7308779828147774 
+[2020-08-08 23:01:14,557][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.885 Precision:[0.96296296 0.29166667 0.75      ] Recall:[0.91629956 0.46666667 0.82442748]
+[2020-08-08 23:01:14,566][get_feature_trainer.py][INFO] Epoch:[23/29]	 Loss=0.18579	 Acc=0.928 epoch_Time:8.12513743241628 min:
+[2020-08-08 23:01:14,759][get_feature_trainer.py][INFO] ----------
+[2020-08-08 23:01:14,759][get_feature_trainer.py][INFO] Epoch 24/29
+[2020-08-08 23:01:14,759][get_feature_trainer.py][INFO] learning rate:0.00019151935989317127
+[2020-08-08 23:01:14,760][get_feature_trainer.py][INFO] ----------
+[2020-08-08 23:01:16,732][get_feature_trainer.py][INFO]  Epoch:24(1/688) loss:0.265 
+[2020-08-08 23:02:26,887][get_feature_trainer.py][INFO]  Epoch:24(101/688) loss:0.021 
+[2020-08-08 23:03:36,694][get_feature_trainer.py][INFO]  Epoch:24(201/688) loss:0.280 
+[2020-08-08 23:04:46,973][get_feature_trainer.py][INFO]  Epoch:24(301/688) loss:0.409 
+[2020-08-08 23:05:57,921][get_feature_trainer.py][INFO]  Epoch:24(401/688) loss:0.008 
+[2020-08-08 23:07:08,411][get_feature_trainer.py][INFO]  Epoch:24(501/688) loss:0.005 
+[2020-08-08 23:08:19,906][get_feature_trainer.py][INFO]  Epoch:24(601/688) loss:0.129 
+[2020-08-08 23:09:22,812][get_feature_trainer.py][INFO]  Epoch:24(689/688) loss:0.094 
+[2020-08-08 23:10:38,155][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9149338374291116, '缓行': 0.1388888888888889, '拥堵': 0.6400000000000001}  各类F加权:0.5947645452636001
+[2020-08-08 23:10:38,156][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.8418 valAcc: 0.8246
+[2020-08-08 23:12:18,585][get_feature_trainer.py][INFO] efficient-b5-c 第24 epoch 预测结果:{'畅通': 493, '缓行': 12, '拥堵': 95}
+[2020-08-08 23:12:18,585][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 23:12:18,586][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.94614572 0.51851852 0.7699115 ] 加权f1:0.7548797510259415 
+[2020-08-08 23:12:18,586][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9033333333333333 Precision:[0.90872211 0.58333333 0.91578947] Recall:[0.98678414 0.46666667 0.66412214]
+[2020-08-08 23:12:18,593][get_feature_trainer.py][INFO] Epoch:[24/29]	 Loss=0.14908	 Acc=0.949 epoch_Time:8.134477702776591 min:
+[2020-08-08 23:12:18,784][get_feature_trainer.py][INFO] ----------
+[2020-08-08 23:12:18,784][get_feature_trainer.py][INFO] Epoch 25/29
+[2020-08-08 23:12:18,784][get_feature_trainer.py][INFO] learning rate:4.158064933479366e-10
+[2020-08-08 23:12:18,784][get_feature_trainer.py][INFO] ----------
+[2020-08-08 23:12:21,167][get_feature_trainer.py][INFO]  Epoch:25(1/688) loss:0.008 
+[2020-08-08 23:13:31,489][get_feature_trainer.py][INFO]  Epoch:25(101/688) loss:0.004 
+[2020-08-08 23:14:42,359][get_feature_trainer.py][INFO]  Epoch:25(201/688) loss:0.004 
+[2020-08-08 23:15:54,205][get_feature_trainer.py][INFO]  Epoch:25(301/688) loss:0.315 
+[2020-08-08 23:17:04,672][get_feature_trainer.py][INFO]  Epoch:25(401/688) loss:0.196 
+[2020-08-08 23:18:16,516][get_feature_trainer.py][INFO]  Epoch:25(501/688) loss:0.134 
+[2020-08-08 23:19:28,723][get_feature_trainer.py][INFO]  Epoch:25(601/688) loss:0.018 
+[2020-08-08 23:20:31,523][get_feature_trainer.py][INFO]  Epoch:25(689/688) loss:0.191 
+[2020-08-08 23:21:47,915][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9149338374291116, '缓行': 0.1388888888888889, '拥堵': 0.6400000000000001}  各类F加权:0.5947645452636001
+[2020-08-08 23:21:47,915][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.8418 valAcc: 0.8246
+[2020-08-08 23:23:29,593][get_feature_trainer.py][INFO] efficient-b5-c 第25 epoch 预测结果:{'畅通': 495, '缓行': 12, '拥堵': 93}
+[2020-08-08 23:23:29,593][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 23:23:29,594][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.94625922 0.44444444 0.75892857] 加权f1:0.7334978757923962 
+[2020-08-08 23:23:29,594][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.9 Precision:[0.90707071 0.5        0.91397849] Recall:[0.98898678 0.4        0.64885496]
+[2020-08-08 23:23:29,600][get_feature_trainer.py][INFO] Epoch:[25/29]	 Loss=0.15122	 Acc=0.950 epoch_Time:8.212573397159577 min:
+[2020-08-08 23:23:29,795][get_feature_trainer.py][INFO] ----------
+[2020-08-08 23:23:29,795][get_feature_trainer.py][INFO] Epoch 26/29
+[2020-08-08 23:23:29,796][get_feature_trainer.py][INFO] learning rate:0.0018095526758540271
+[2020-08-08 23:23:29,796][get_feature_trainer.py][INFO] ----------
+[2020-08-08 23:23:31,652][get_feature_trainer.py][INFO]  Epoch:26(1/688) loss:0.380 
+[2020-08-08 23:24:42,523][get_feature_trainer.py][INFO]  Epoch:26(101/688) loss:0.023 
+[2020-08-08 23:25:53,501][get_feature_trainer.py][INFO]  Epoch:26(201/688) loss:0.215 
+[2020-08-08 23:27:04,274][get_feature_trainer.py][INFO]  Epoch:26(301/688) loss:0.096 
+[2020-08-08 23:28:16,020][get_feature_trainer.py][INFO]  Epoch:26(401/688) loss:0.390 
+[2020-08-08 23:29:50,599][get_feature_trainer.py][INFO]  Epoch:26(501/688) loss:0.663 
+[2020-08-08 23:31:32,841][get_feature_trainer.py][INFO]  Epoch:26(601/688) loss:0.726 
+[2020-08-08 23:33:02,880][get_feature_trainer.py][INFO]  Epoch:26(689/688) loss:0.466 
+[2020-08-08 23:35:30,201][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.8984012377514182, '缓行': 0.25396825396825395, '拥堵': 0.5694200351493849}  各类F加权:0.5721259194335654
+[2020-08-08 23:35:30,207][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.7214 valAcc: 0.7717
+[2020-08-08 23:37:18,046][get_feature_trainer.py][INFO] efficient-b5-c 第26 epoch 预测结果:{'畅通': 425, '缓行': 42, '拥堵': 133}
+[2020-08-08 23:37:18,047][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 23:37:18,049][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.94197952 0.35087719 0.77272727] 加权f1:0.7222077066697148 
+[2020-08-08 23:37:18,050][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.8766666666666667 Precision:[0.97411765 0.23809524 0.76691729] Recall:[0.91189427 0.66666667 0.77862595]
+[2020-08-08 23:37:18,065][get_feature_trainer.py][INFO] Epoch:[26/29]	 Loss=0.23074	 Acc=0.912 epoch_Time:9.551675335566204 min:
+[2020-08-08 23:37:18,413][get_feature_trainer.py][INFO] ----------
+[2020-08-08 23:37:18,413][get_feature_trainer.py][INFO] Epoch 27/29
+[2020-08-08 23:37:18,414][get_feature_trainer.py][INFO] learning rate:0.0013098841610217353
+[2020-08-08 23:37:18,414][get_feature_trainer.py][INFO] ----------
+[2020-08-08 23:37:20,289][get_feature_trainer.py][INFO]  Epoch:27(1/688) loss:0.205 
+[2020-08-08 23:38:31,475][get_feature_trainer.py][INFO]  Epoch:27(101/688) loss:0.156 
+[2020-08-08 23:39:43,423][get_feature_trainer.py][INFO]  Epoch:27(201/688) loss:0.051 
+[2020-08-08 23:40:54,420][get_feature_trainer.py][INFO]  Epoch:27(301/688) loss:0.137 
+[2020-08-08 23:42:04,810][get_feature_trainer.py][INFO]  Epoch:27(401/688) loss:0.052 
+[2020-08-08 23:43:15,578][get_feature_trainer.py][INFO]  Epoch:27(501/688) loss:0.018 
+[2020-08-08 23:44:27,164][get_feature_trainer.py][INFO]  Epoch:27(601/688) loss:0.489 
+[2020-08-08 23:45:28,983][get_feature_trainer.py][INFO]  Epoch:27(689/688) loss:0.604 
+[2020-08-08 23:46:45,009][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9080808080808082, '缓行': 0.14942528735632182, '拥堵': 0.6006600660066007}  各类F加权:0.5718972586913864
+[2020-08-08 23:46:45,009][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.8636 valAcc: 0.7928
+[2020-08-08 23:48:27,843][get_feature_trainer.py][INFO] efficient-b5-c 第27 epoch 预测结果:{'畅通': 441, '缓行': 22, '拥堵': 137}
+[2020-08-08 23:48:27,843][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 23:48:27,843][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.94301676 0.27027027 0.78358209] 加权f1:0.7128066597407047 
+[2020-08-08 23:48:27,844][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.8866666666666667 Precision:[0.9569161  0.22727273 0.76642336] Recall:[0.92951542 0.33333333 0.80152672]
+[2020-08-08 23:48:27,851][get_feature_trainer.py][INFO] Epoch:[27/29]	 Loss=0.19292	 Acc=0.929 epoch_Time:8.176683334509532 min:
+[2020-08-08 23:48:28,049][get_feature_trainer.py][INFO] ----------
+[2020-08-08 23:48:28,049][get_feature_trainer.py][INFO] Epoch 28/29
+[2020-08-08 23:48:28,049][get_feature_trainer.py][INFO] learning rate:0.0006918504292543863
+[2020-08-08 23:48:28,049][get_feature_trainer.py][INFO] ----------
+[2020-08-08 23:48:30,284][get_feature_trainer.py][INFO]  Epoch:28(1/688) loss:1.228 
+[2020-08-08 23:49:40,465][get_feature_trainer.py][INFO]  Epoch:28(101/688) loss:0.558 
+[2020-08-08 23:50:51,343][get_feature_trainer.py][INFO]  Epoch:28(201/688) loss:0.015 
+[2020-08-08 23:52:02,918][get_feature_trainer.py][INFO]  Epoch:28(301/688) loss:0.001 
+[2020-08-08 23:53:14,324][get_feature_trainer.py][INFO]  Epoch:28(401/688) loss:0.147 
+[2020-08-08 23:54:25,606][get_feature_trainer.py][INFO]  Epoch:28(501/688) loss:0.050 
+[2020-08-08 23:55:36,356][get_feature_trainer.py][INFO]  Epoch:28(601/688) loss:1.068 
+[2020-08-08 23:56:37,445][get_feature_trainer.py][INFO]  Epoch:28(689/688) loss:0.076 
+[2020-08-08 23:57:53,434][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9141996989463121, '缓行': 0.1267605633802817, '拥堵': 0.6399999999999999}  各类F加权:0.5921920524653187
+[2020-08-08 23:57:53,435][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.9931 valAcc: 0.8116
+[2020-08-08 23:59:38,232][get_feature_trainer.py][INFO] efficient-b5-c 第28 epoch 预测结果:{'畅通': 448, '缓行': 9, '拥堵': 143}
+[2020-08-08 23:59:38,232][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-08 23:59:38,233][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.94456763 0.41666667 0.81751825] 加权f1:0.7627578077373341 
+[2020-08-08 23:59:38,233][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.905 Precision:[0.95089286 0.55555556 0.78321678] Recall:[0.93832599 0.33333333 0.85496183]
+[2020-08-08 23:59:38,240][get_feature_trainer.py][INFO] Epoch:[28/29]	 Loss=0.14250	 Acc=0.947 epoch_Time:8.156869622071584 min:
+[2020-08-08 23:59:38,437][get_feature_trainer.py][INFO] ----------
+[2020-08-08 23:59:38,438][get_feature_trainer.py][INFO] Epoch 29/29
+[2020-08-08 23:59:38,438][get_feature_trainer.py][INFO] learning rate:0.00019151935989317127
+[2020-08-08 23:59:38,438][get_feature_trainer.py][INFO] ----------
+[2020-08-08 23:59:40,905][get_feature_trainer.py][INFO]  Epoch:29(1/688) loss:0.168 
+[2020-08-09 00:00:51,154][get_feature_trainer.py][INFO]  Epoch:29(101/688) loss:0.087 
+[2020-08-09 00:02:02,129][get_feature_trainer.py][INFO]  Epoch:29(201/688) loss:0.499 
+[2020-08-09 00:03:12,926][get_feature_trainer.py][INFO]  Epoch:29(301/688) loss:0.115 
+[2020-08-09 00:04:24,258][get_feature_trainer.py][INFO]  Epoch:29(401/688) loss:0.008 
+[2020-08-09 00:05:35,148][get_feature_trainer.py][INFO]  Epoch:29(501/688) loss:0.007 
+[2020-08-09 00:06:46,752][get_feature_trainer.py][INFO]  Epoch:29(601/688) loss:0.026 
+[2020-08-09 00:07:48,946][get_feature_trainer.py][INFO]  Epoch:29(689/688) loss:0.037 
+[2020-08-09 00:09:05,870][get_feature_trainer.py][INFO] 各类单独F1:{'畅通': 0.9124877089478859, '缓行': 0.16666666666666666, '拥堵': 0.6153846153846154}  各类F加权:0.5850616443536798
+[2020-08-09 00:09:05,871][get_feature_trainer.py][INFO] val_size: 1380  valLoss: 0.9847 valAcc: 0.8051
+[2020-08-09 00:10:49,403][get_feature_trainer.py][INFO] efficient-b5-c 第29 epoch 预测结果:{'畅通': 468, '缓行': 23, '拥堵': 109}
+[2020-08-09 00:10:49,403][get_feature_trainer.py][INFO] 69.json 预测结果:{'畅通': 454, '缓行': 15, '拥堵': 131}
+[2020-08-09 00:10:49,403][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 f1:[0.95010846 0.42105263 0.775     ] 加权f1:0.739232218289759 
+[2020-08-09 00:10:49,404][get_feature_trainer.py][INFO] efficient-b5-c 和 69.json 的 Acc:0.8983333333333333 Precision:[0.93589744 0.34782609 0.85321101] Recall:[0.96475771 0.53333333 0.70992366]
+[2020-08-09 00:10:49,410][get_feature_trainer.py][INFO] Epoch:[29/29]	 Loss=0.12519	 Acc=0.955 epoch_Time:8.175412825743358 min:
+[2020-08-09 00:10:49,592][get_feature_trainer.py][INFO] Best Accuracy: 0.627
+[2020-08-09 00:10:49,888][get_feature_trainer.py][INFO] Training complete in 338m 18s

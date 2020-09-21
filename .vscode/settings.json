@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/home/xjma/anaconda3/envs/py36/bin/python",
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintArgs": ["--generate-members"]
+}

@@ -1,0 +1,33 @@
+SYSTEM:
+  GPU_ID : 6,7,8,9
+  NUM_WORKERS: 4
+DATASET:
+  TRAIN_DIR : '/data4/mjx/GD-B/dataset/train'
+  VAL_DIR : '/data4/mjx/GD-B/dataset/val'
+  TEST_DIR : '/data4/mjx/GD-B/dataset/test'
+MODEL:
+  MODEL_NAME: 'efficient-b5-final-c-new'
+TRAIN_PARAM:
+  IMAGE_SIZE: 214
+  TRAIN_BATCH_SIZE : 16
+  VAL_BATCH_SIZE: 4
+  TEST_BATCH_SIZE : 4
+  MOMENTUM : 0.9
+  WEIGHT_DECAY: 0.0004
+  NUM_EPOCHS : 30
+  LR : 0.002
+  VAL_INTERVAl : 0
+  # 打印间隔STEP
+  PRINT_INTERVAL : 100
+  # 最低保存模型/计算最优模型epohc阈值
+  MIN_SAVE_EPOCH: 1
+OUTPUT_DIR:
+  SUB_DIR: 'submit/'
+  LOG_DIR: 'log/'
+  OUT_DIR: '/data4/mjx/GD-B/output/'
+
+
+
+
+
+  

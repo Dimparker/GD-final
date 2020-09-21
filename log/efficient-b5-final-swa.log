@@ -1,0 +1,7 @@
+[2020-09-18 21:26:49,205][trainer_swa.py][INFO] Using: efficient-b5-final-swa
+[2020-09-18 21:26:49,206][trainer_swa.py][INFO] Using the GPU: (6, 7, 8, 9)
+[2020-09-18 21:26:49,206][trainer_swa.py][INFO] start training...
+[2020-09-18 21:26:49,680][trainer_swa.py][INFO] ----------
+[2020-09-18 21:26:49,681][trainer_swa.py][INFO] Epoch 0/29
+[2020-09-18 21:26:49,681][trainer_swa.py][INFO] learning rate:0.002
+[2020-09-18 21:26:49,681][trainer_swa.py][INFO] ----------

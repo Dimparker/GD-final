@@ -1,0 +1,22 @@
+[2020-09-19 13:11:14,109][trainer_4.py][INFO] Using: efficient-b5-final-4
+[2020-09-19 13:11:14,109][trainer_4.py][INFO] Using the GPU: (0, 1, 2, 3)
+[2020-09-19 13:11:14,109][trainer_4.py][INFO] start training...
+[2020-09-19 13:11:14,168][trainer_4.py][INFO] ----------
+[2020-09-19 13:11:14,168][trainer_4.py][INFO] Epoch 0/29
+[2020-09-19 13:11:14,168][trainer_4.py][INFO] learning rate:0.002
+[2020-09-19 13:11:14,169][trainer_4.py][INFO] ----------
+[2020-09-19 13:14:26,348][trainer_4.py][INFO]  Epoch:0(1/3431) loss:1.400 
+[2020-09-19 13:15:17,106][trainer_4.py][INFO]  Epoch:0(101/3431) loss:0.013 
+[2020-09-19 13:16:00,912][trainer_4.py][INFO]  Epoch:0(201/3431) loss:0.003 
+[2020-09-19 13:16:45,298][trainer_4.py][INFO]  Epoch:0(301/3431) loss:0.003 
+[2020-09-19 13:17:28,399][trainer_4.py][INFO]  Epoch:0(401/3431) loss:0.003 
+[2020-09-19 13:18:10,881][trainer_4.py][INFO]  Epoch:0(501/3431) loss:0.001 
+[2020-09-19 13:18:54,111][trainer_4.py][INFO]  Epoch:0(601/3431) loss:0.003 
+[2020-09-19 13:19:38,879][trainer_4.py][INFO]  Epoch:0(701/3431) loss:0.002 
+[2020-09-19 13:20:22,942][trainer_4.py][INFO]  Epoch:0(801/3431) loss:0.002 
+[2020-09-19 13:21:07,077][trainer_4.py][INFO]  Epoch:0(901/3431) loss:0.001 
+[2020-09-19 13:21:51,162][trainer_4.py][INFO]  Epoch:0(1001/3431) loss:0.001 
+[2020-09-19 13:22:35,552][trainer_4.py][INFO]  Epoch:0(1101/3431) loss:0.001 
+[2020-09-19 13:23:20,554][trainer_4.py][INFO]  Epoch:0(1201/3431) loss:0.001 
+[2020-09-19 13:24:05,539][trainer_4.py][INFO]  Epoch:0(1301/3431) loss:0.015 
+[2020-09-19 13:24:48,512][trainer_4.py][INFO]  Epoch:0(1401/3431) loss:0.336 

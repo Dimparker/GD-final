@@ -1,0 +1,418 @@
+[2020-09-21 15:33:37,940][trainer_bg.py][INFO] Using: efficient-b5-final-big-scale
+[2020-09-21 15:33:37,941][trainer_bg.py][INFO] Using the GPU: (1, 2, 3, 4)
+[2020-09-21 15:33:37,941][trainer_bg.py][INFO] start training...
+[2020-09-21 15:33:37,983][trainer_bg.py][INFO] ----------
+[2020-09-21 15:33:37,983][trainer_bg.py][INFO] Epoch 0/29
+[2020-09-21 15:33:37,984][trainer_bg.py][INFO] learning rate:0.002
+[2020-09-21 15:33:37,984][trainer_bg.py][INFO] ----------
+[2020-09-21 15:34:25,993][trainer_bg.py][INFO]  Epoch:0(1/1684) loss:1.388 learning rate:0.002
+[2020-09-21 15:35:29,320][trainer_bg.py][INFO]  Epoch:0(101/1684) loss:0.682 learning rate:0.002
+[2020-09-21 15:36:29,777][trainer_bg.py][INFO]  Epoch:0(201/1684) loss:0.900 learning rate:0.002
+[2020-09-21 15:37:29,444][trainer_bg.py][INFO]  Epoch:0(301/1684) loss:0.583 learning rate:0.002
+[2020-09-21 15:38:30,841][trainer_bg.py][INFO]  Epoch:0(401/1684) loss:0.924 learning rate:0.002
+[2020-09-21 15:39:31,729][trainer_bg.py][INFO]  Epoch:0(501/1684) loss:0.701 learning rate:0.002
+[2020-09-21 15:40:33,231][trainer_bg.py][INFO]  Epoch:0(601/1684) loss:0.405 learning rate:0.002
+[2020-09-21 15:41:33,916][trainer_bg.py][INFO]  Epoch:0(701/1684) loss:1.239 learning rate:0.002
+[2020-09-21 15:42:37,276][trainer_bg.py][INFO]  Epoch:0(801/1684) loss:0.635 learning rate:0.002
+[2020-09-21 15:43:37,852][trainer_bg.py][INFO]  Epoch:0(901/1684) loss:0.375 learning rate:0.002
+[2020-09-21 15:44:38,824][trainer_bg.py][INFO]  Epoch:0(1001/1684) loss:0.428 learning rate:0.002
+[2020-09-21 15:45:40,604][trainer_bg.py][INFO]  Epoch:0(1101/1684) loss:0.803 learning rate:0.002
+[2020-09-21 15:46:42,094][trainer_bg.py][INFO]  Epoch:0(1201/1684) loss:0.911 learning rate:0.002
+[2020-09-21 15:47:43,678][trainer_bg.py][INFO]  Epoch:0(1301/1684) loss:0.602 learning rate:0.002
+[2020-09-21 15:48:44,776][trainer_bg.py][INFO]  Epoch:0(1401/1684) loss:0.724 learning rate:0.002
+[2020-09-21 15:49:46,399][trainer_bg.py][INFO]  Epoch:0(1501/1684) loss:0.526 learning rate:0.002
+[2020-09-21 15:50:47,510][trainer_bg.py][INFO]  Epoch:0(1601/1684) loss:0.575 learning rate:0.002
+[2020-09-21 15:51:39,907][trainer_bg.py][INFO]  Epoch:0(1685/1684) loss:0.079 learning rate:0.002
+[2020-09-21 15:55:21,697][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.813722126929674, '缓行': 0.0099009900990099, '拥堵': 0.3829113924050633, '封闭': 0.7337073802330599}  各类F加权:0.4917087805275124
+[2020-09-21 15:55:21,698][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.8794 valAcc: 0.6805
+[2020-09-21 15:55:21,702][trainer_bg.py][INFO] Epoch:[0/29] Loss=0.67631  Acc=0.630 Epoch_Time:18.032696191469828 min: ETA: 9.016348095734914 hours
+[2020-09-21 15:55:23,132][trainer_bg.py][INFO] ----------
+[2020-09-21 15:55:23,132][trainer_bg.py][INFO] Epoch 1/29
+[2020-09-21 15:55:23,132][trainer_bg.py][INFO] learning rate:0.0018092361169766793
+[2020-09-21 15:55:23,132][trainer_bg.py][INFO] ----------
+[2020-09-21 15:55:25,419][trainer_bg.py][INFO]  Epoch:1(1/1684) loss:1.512 learning rate:0.0018092361169766793
+[2020-09-21 15:56:23,780][trainer_bg.py][INFO]  Epoch:1(101/1684) loss:0.124 learning rate:0.0018092361169766793
+[2020-09-21 15:57:22,263][trainer_bg.py][INFO]  Epoch:1(201/1684) loss:0.296 learning rate:0.0018092361169766793
+[2020-09-21 15:58:19,345][trainer_bg.py][INFO]  Epoch:1(301/1684) loss:0.210 learning rate:0.0018092361169766793
+[2020-09-21 15:59:17,494][trainer_bg.py][INFO]  Epoch:1(401/1684) loss:0.289 learning rate:0.0018092361169766793
+[2020-09-21 16:00:15,533][trainer_bg.py][INFO]  Epoch:1(501/1684) loss:0.714 learning rate:0.0018092361169766793
+[2020-09-21 16:01:13,092][trainer_bg.py][INFO]  Epoch:1(601/1684) loss:0.129 learning rate:0.0018092361169766793
+[2020-09-21 16:02:11,665][trainer_bg.py][INFO]  Epoch:1(701/1684) loss:0.357 learning rate:0.0018092361169766793
+[2020-09-21 16:03:10,108][trainer_bg.py][INFO]  Epoch:1(801/1684) loss:0.142 learning rate:0.0018092361169766793
+[2020-09-21 16:04:08,807][trainer_bg.py][INFO]  Epoch:1(901/1684) loss:0.413 learning rate:0.0018092361169766793
+[2020-09-21 16:05:07,486][trainer_bg.py][INFO]  Epoch:1(1001/1684) loss:0.311 learning rate:0.0018092361169766793
+[2020-09-21 16:06:05,842][trainer_bg.py][INFO]  Epoch:1(1101/1684) loss:0.405 learning rate:0.0018092361169766793
+[2020-09-21 16:07:04,075][trainer_bg.py][INFO]  Epoch:1(1201/1684) loss:0.140 learning rate:0.0018092361169766793
+[2020-09-21 16:08:02,931][trainer_bg.py][INFO]  Epoch:1(1301/1684) loss:0.070 learning rate:0.0018092361169766793
+[2020-09-21 16:09:00,789][trainer_bg.py][INFO]  Epoch:1(1401/1684) loss:0.923 learning rate:0.0018092361169766793
+[2020-09-21 16:09:59,212][trainer_bg.py][INFO]  Epoch:1(1501/1684) loss:0.451 learning rate:0.0018092361169766793
+[2020-09-21 16:10:57,848][trainer_bg.py][INFO]  Epoch:1(1601/1684) loss:0.023 learning rate:0.0018092361169766793
+[2020-09-21 16:11:46,264][trainer_bg.py][INFO]  Epoch:1(1685/1684) loss:0.158 learning rate:0.0018092361169766793
+[2020-09-21 16:15:18,066][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.8824619948090471, '缓行': 0.022099447513812154, '拥堵': 0.556745182012848, '封闭': 0.9819819819819819}  各类F加权:0.6524824363803143
+[2020-09-21 16:15:18,067][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.3655 valAcc: 0.8567
+[2020-09-21 16:15:18,071][trainer_bg.py][INFO] Epoch:[1/29] Loss=0.28792  Acc=0.854 Epoch_Time:16.386753781636557 min: ETA: 7.920264327791002 hours
+[2020-09-21 16:15:18,510][trainer_bg.py][INFO] ----------
+[2020-09-21 16:15:18,510][trainer_bg.py][INFO] Epoch 2/29
+[2020-09-21 16:15:18,510][trainer_bg.py][INFO] learning rate:0.0013093716117154803
+[2020-09-21 16:15:18,510][trainer_bg.py][INFO] ----------
+[2020-09-21 16:15:20,682][trainer_bg.py][INFO]  Epoch:2(1/1684) loss:0.174 learning rate:0.0013093716117154803
+[2020-09-21 16:16:17,821][trainer_bg.py][INFO]  Epoch:2(101/1684) loss:0.098 learning rate:0.0013093716117154803
+[2020-09-21 16:17:15,023][trainer_bg.py][INFO]  Epoch:2(201/1684) loss:0.504 learning rate:0.0013093716117154803
+[2020-09-21 16:18:13,508][trainer_bg.py][INFO]  Epoch:2(301/1684) loss:0.037 learning rate:0.0013093716117154803
+[2020-09-21 16:19:11,631][trainer_bg.py][INFO]  Epoch:2(401/1684) loss:0.052 learning rate:0.0013093716117154803
+[2020-09-21 16:20:09,865][trainer_bg.py][INFO]  Epoch:2(501/1684) loss:0.109 learning rate:0.0013093716117154803
+[2020-09-21 16:21:08,230][trainer_bg.py][INFO]  Epoch:2(601/1684) loss:0.058 learning rate:0.0013093716117154803
+[2020-09-21 16:22:07,040][trainer_bg.py][INFO]  Epoch:2(701/1684) loss:0.314 learning rate:0.0013093716117154803
+[2020-09-21 16:23:05,490][trainer_bg.py][INFO]  Epoch:2(801/1684) loss:0.276 learning rate:0.0013093716117154803
+[2020-09-21 16:24:03,910][trainer_bg.py][INFO]  Epoch:2(901/1684) loss:0.134 learning rate:0.0013093716117154803
+[2020-09-21 16:25:02,562][trainer_bg.py][INFO]  Epoch:2(1001/1684) loss:0.180 learning rate:0.0013093716117154803
+[2020-09-21 16:26:01,120][trainer_bg.py][INFO]  Epoch:2(1101/1684) loss:0.110 learning rate:0.0013093716117154803
+[2020-09-21 16:26:59,476][trainer_bg.py][INFO]  Epoch:2(1201/1684) loss:0.015 learning rate:0.0013093716117154803
+[2020-09-21 16:27:57,218][trainer_bg.py][INFO]  Epoch:2(1301/1684) loss:0.225 learning rate:0.0013093716117154803
+[2020-09-21 16:28:55,452][trainer_bg.py][INFO]  Epoch:2(1401/1684) loss:0.264 learning rate:0.0013093716117154803
+[2020-09-21 16:29:53,674][trainer_bg.py][INFO]  Epoch:2(1501/1684) loss:0.169 learning rate:0.0013093716117154803
+[2020-09-21 16:30:51,451][trainer_bg.py][INFO]  Epoch:2(1601/1684) loss:0.150 learning rate:0.0013093716117154803
+[2020-09-21 16:31:39,968][trainer_bg.py][INFO]  Epoch:2(1685/1684) loss:0.041 learning rate:0.0013093716117154803
+[2020-09-21 16:35:02,420][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.9229696758452421, '缓行': 0.0, '拥堵': 0.661134163208852, '封闭': 0.9921528488570455}  各类F加权:0.687498356089998
+[2020-09-21 16:35:02,421][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.2583 valAcc: 0.9009
+[2020-09-21 16:35:02,427][trainer_bg.py][INFO] Epoch:[2/29] Loss=0.18413  Acc=0.902 Epoch_Time:16.358413747946422 min: ETA: 7.63392641570833 hours
+[2020-09-21 16:35:03,131][trainer_bg.py][INFO] ----------
+[2020-09-21 16:35:03,132][trainer_bg.py][INFO] Epoch 3/29
+[2020-09-21 16:35:03,132][trainer_bg.py][INFO] learning rate:0.0006913376659333031
+[2020-09-21 16:35:03,132][trainer_bg.py][INFO] ----------
+[2020-09-21 16:35:05,380][trainer_bg.py][INFO]  Epoch:3(1/1684) loss:0.187 learning rate:0.0006913376659333031
+[2020-09-21 16:36:02,413][trainer_bg.py][INFO]  Epoch:3(101/1684) loss:0.053 learning rate:0.0006913376659333031
+[2020-09-21 16:36:59,838][trainer_bg.py][INFO]  Epoch:3(201/1684) loss:0.022 learning rate:0.0006913376659333031
+[2020-09-21 16:37:58,501][trainer_bg.py][INFO]  Epoch:3(301/1684) loss:0.198 learning rate:0.0006913376659333031
+[2020-09-21 16:38:56,162][trainer_bg.py][INFO]  Epoch:3(401/1684) loss:0.009 learning rate:0.0006913376659333031
+[2020-09-21 16:39:54,293][trainer_bg.py][INFO]  Epoch:3(501/1684) loss:0.001 learning rate:0.0006913376659333031
+[2020-09-21 16:40:52,803][trainer_bg.py][INFO]  Epoch:3(601/1684) loss:0.001 learning rate:0.0006913376659333031
+[2020-09-21 16:41:51,651][trainer_bg.py][INFO]  Epoch:3(701/1684) loss:0.014 learning rate:0.0006913376659333031
+[2020-09-21 16:42:49,784][trainer_bg.py][INFO]  Epoch:3(801/1684) loss:0.000 learning rate:0.0006913376659333031
+[2020-09-21 16:43:48,405][trainer_bg.py][INFO]  Epoch:3(901/1684) loss:0.057 learning rate:0.0006913376659333031
+[2020-09-21 16:44:47,010][trainer_bg.py][INFO]  Epoch:3(1001/1684) loss:0.091 learning rate:0.0006913376659333031
+[2020-09-21 16:45:45,693][trainer_bg.py][INFO]  Epoch:3(1101/1684) loss:0.066 learning rate:0.0006913376659333031
+[2020-09-21 16:46:44,109][trainer_bg.py][INFO]  Epoch:3(1201/1684) loss:0.085 learning rate:0.0006913376659333031
+[2020-09-21 16:47:42,729][trainer_bg.py][INFO]  Epoch:3(1301/1684) loss:0.002 learning rate:0.0006913376659333031
+[2020-09-21 16:48:41,337][trainer_bg.py][INFO]  Epoch:3(1401/1684) loss:0.048 learning rate:0.0006913376659333031
+[2020-09-21 16:49:39,962][trainer_bg.py][INFO]  Epoch:3(1501/1684) loss:0.085 learning rate:0.0006913376659333031
+[2020-09-21 16:50:38,001][trainer_bg.py][INFO]  Epoch:3(1601/1684) loss:0.146 learning rate:0.0006913376659333031
+[2020-09-21 16:51:26,615][trainer_bg.py][INFO]  Epoch:3(1685/1684) loss:0.382 learning rate:0.0006913376659333031
+[2020-09-21 16:54:52,127][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.919831223628692, '缓行': 0.19591836734693877, '拥堵': 0.6512301013024602, '封闭': 0.9917751884852639}  各类F加权:0.7232459016171007
+[2020-09-21 16:54:52,128][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.2823 valAcc: 0.8970
+[2020-09-21 16:54:52,132][trainer_bg.py][INFO] Epoch:[3/29] Loss=0.14033  Acc=0.926 Epoch_Time:16.39272778828939 min: ETA: 7.3767275047302245 hours
+[2020-09-21 16:54:52,656][trainer_bg.py][INFO] ----------
+[2020-09-21 16:54:52,656][trainer_bg.py][INFO] Epoch 4/29
+[2020-09-21 16:54:52,656][trainer_bg.py][INFO] learning rate:0.0001912022407177295
+[2020-09-21 16:54:52,656][trainer_bg.py][INFO] ----------
+[2020-09-21 16:54:55,181][trainer_bg.py][INFO]  Epoch:4(1/1684) loss:0.002 learning rate:0.0001912022407177295
+[2020-09-21 16:55:51,603][trainer_bg.py][INFO]  Epoch:4(101/1684) loss:0.189 learning rate:0.0001912022407177295
+[2020-09-21 16:56:48,882][trainer_bg.py][INFO]  Epoch:4(201/1684) loss:0.101 learning rate:0.0001912022407177295
+[2020-09-21 16:57:46,602][trainer_bg.py][INFO]  Epoch:4(301/1684) loss:0.011 learning rate:0.0001912022407177295
+[2020-09-21 16:58:44,551][trainer_bg.py][INFO]  Epoch:4(401/1684) loss:0.162 learning rate:0.0001912022407177295
+[2020-09-21 16:59:42,216][trainer_bg.py][INFO]  Epoch:4(501/1684) loss:0.024 learning rate:0.0001912022407177295
+[2020-09-21 17:00:40,561][trainer_bg.py][INFO]  Epoch:4(601/1684) loss:0.158 learning rate:0.0001912022407177295
+[2020-09-21 17:01:38,749][trainer_bg.py][INFO]  Epoch:4(701/1684) loss:0.004 learning rate:0.0001912022407177295
+[2020-09-21 17:02:36,207][trainer_bg.py][INFO]  Epoch:4(801/1684) loss:0.068 learning rate:0.0001912022407177295
+[2020-09-21 17:03:34,159][trainer_bg.py][INFO]  Epoch:4(901/1684) loss:0.024 learning rate:0.0001912022407177295
+[2020-09-21 17:04:32,166][trainer_bg.py][INFO]  Epoch:4(1001/1684) loss:0.057 learning rate:0.0001912022407177295
+[2020-09-21 17:05:30,551][trainer_bg.py][INFO]  Epoch:4(1101/1684) loss:0.147 learning rate:0.0001912022407177295
+[2020-09-21 17:06:29,045][trainer_bg.py][INFO]  Epoch:4(1201/1684) loss:0.005 learning rate:0.0001912022407177295
+[2020-09-21 17:07:27,060][trainer_bg.py][INFO]  Epoch:4(1301/1684) loss:0.013 learning rate:0.0001912022407177295
+[2020-09-21 17:08:26,064][trainer_bg.py][INFO]  Epoch:4(1401/1684) loss:0.002 learning rate:0.0001912022407177295
+[2020-09-21 17:09:24,991][trainer_bg.py][INFO]  Epoch:4(1501/1684) loss:0.185 learning rate:0.0001912022407177295
+[2020-09-21 17:10:29,087][trainer_bg.py][INFO]  Epoch:4(1601/1684) loss:0.035 learning rate:0.0001912022407177295
+[2020-09-21 17:11:21,881][trainer_bg.py][INFO]  Epoch:4(1685/1684) loss:0.212 learning rate:0.0001912022407177295
+[2020-09-21 17:15:21,752][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.9225425494963528, '缓行': 0.19266055045871558, '拥堵': 0.6647230320699707, '封闭': 0.9893653516295026}  各类F加权:0.7259494153141707
+[2020-09-21 17:15:21,752][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.2878 valAcc: 0.9015
+[2020-09-21 17:15:21,756][trainer_bg.py][INFO] Epoch:[4/29] Loss=0.11117  Acc=0.942 Epoch_Time:16.488345607121786 min: ETA: 7.144949763086107 hours
+[2020-09-21 17:15:22,356][trainer_bg.py][INFO] ----------
+[2020-09-21 17:15:22,356][trainer_bg.py][INFO] Epoch 5/29
+[2020-09-21 17:15:22,356][trainer_bg.py][INFO] learning rate:6.952322750830575e-11
+[2020-09-21 17:15:22,357][trainer_bg.py][INFO] ----------
+[2020-09-21 17:15:24,754][trainer_bg.py][INFO]  Epoch:5(1/1684) loss:0.133 learning rate:6.952322750830575e-11
+[2020-09-21 17:16:31,587][trainer_bg.py][INFO]  Epoch:5(101/1684) loss:0.018 learning rate:6.952322750830575e-11
+[2020-09-21 17:17:36,951][trainer_bg.py][INFO]  Epoch:5(201/1684) loss:0.081 learning rate:6.952322750830575e-11
+[2020-09-21 17:18:42,100][trainer_bg.py][INFO]  Epoch:5(301/1684) loss:0.038 learning rate:6.952322750830575e-11
+[2020-09-21 17:19:47,980][trainer_bg.py][INFO]  Epoch:5(401/1684) loss:0.031 learning rate:6.952322750830575e-11
+[2020-09-21 17:20:52,641][trainer_bg.py][INFO]  Epoch:5(501/1684) loss:0.158 learning rate:6.952322750830575e-11
+[2020-09-21 17:21:55,232][trainer_bg.py][INFO]  Epoch:5(601/1684) loss:0.005 learning rate:6.952322750830575e-11
+[2020-09-21 17:22:58,428][trainer_bg.py][INFO]  Epoch:5(701/1684) loss:0.008 learning rate:6.952322750830575e-11
+[2020-09-21 17:24:01,018][trainer_bg.py][INFO]  Epoch:5(801/1684) loss:0.024 learning rate:6.952322750830575e-11
+[2020-09-21 17:25:02,418][trainer_bg.py][INFO]  Epoch:5(901/1684) loss:0.019 learning rate:6.952322750830575e-11
+[2020-09-21 17:26:04,997][trainer_bg.py][INFO]  Epoch:5(1001/1684) loss:0.283 learning rate:6.952322750830575e-11
+[2020-09-21 17:27:07,517][trainer_bg.py][INFO]  Epoch:5(1101/1684) loss:0.281 learning rate:6.952322750830575e-11
+[2020-09-21 17:28:10,690][trainer_bg.py][INFO]  Epoch:5(1201/1684) loss:0.003 learning rate:6.952322750830575e-11
+[2020-09-21 17:29:12,764][trainer_bg.py][INFO]  Epoch:5(1301/1684) loss:0.014 learning rate:6.952322750830575e-11
+[2020-09-21 17:30:17,575][trainer_bg.py][INFO]  Epoch:5(1401/1684) loss:0.012 learning rate:6.952322750830575e-11
+[2020-09-21 17:31:16,036][trainer_bg.py][INFO]  Epoch:5(1501/1684) loss:0.020 learning rate:6.952322750830575e-11
+[2020-09-21 17:32:14,206][trainer_bg.py][INFO]  Epoch:5(1601/1684) loss:0.003 learning rate:6.952322750830575e-11
+[2020-09-21 17:33:03,111][trainer_bg.py][INFO]  Epoch:5(1685/1684) loss:0.001 learning rate:6.952322750830575e-11
+[2020-09-21 17:36:26,812][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.9225425494963528, '缓行': 0.19266055045871558, '拥堵': 0.6647230320699707, '封闭': 0.9893653516295026}  各类F加权:0.7259494153141707
+[2020-09-21 17:36:26,813][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.2878 valAcc: 0.9015
+[2020-09-21 17:36:26,817][trainer_bg.py][INFO] Epoch:[5/29] Loss=0.10122  Acc=0.946 Epoch_Time:17.680418149630228 min: ETA: 7.366840895679262 hours
+[2020-09-21 17:36:27,275][trainer_bg.py][INFO] ----------
+[2020-09-21 17:36:27,276][trainer_bg.py][INFO] Epoch 6/29
+[2020-09-21 17:36:27,276][trainer_bg.py][INFO] learning rate:0.0018092361169766793
+[2020-09-21 17:36:27,276][trainer_bg.py][INFO] ----------
+[2020-09-21 17:36:29,232][trainer_bg.py][INFO]  Epoch:6(1/1684) loss:0.455 learning rate:0.0018092361169766793
+[2020-09-21 17:37:25,290][trainer_bg.py][INFO]  Epoch:6(101/1684) loss:0.168 learning rate:0.0018092361169766793
+[2020-09-21 17:38:22,150][trainer_bg.py][INFO]  Epoch:6(201/1684) loss:0.318 learning rate:0.0018092361169766793
+[2020-09-21 17:39:20,084][trainer_bg.py][INFO]  Epoch:6(301/1684) loss:0.305 learning rate:0.0018092361169766793
+[2020-09-21 17:40:18,131][trainer_bg.py][INFO]  Epoch:6(401/1684) loss:0.126 learning rate:0.0018092361169766793
+[2020-09-21 17:41:16,276][trainer_bg.py][INFO]  Epoch:6(501/1684) loss:0.291 learning rate:0.0018092361169766793
+[2020-09-21 17:42:13,832][trainer_bg.py][INFO]  Epoch:6(601/1684) loss:0.151 learning rate:0.0018092361169766793
+[2020-09-21 17:43:11,284][trainer_bg.py][INFO]  Epoch:6(701/1684) loss:0.844 learning rate:0.0018092361169766793
+[2020-09-21 17:44:09,374][trainer_bg.py][INFO]  Epoch:6(801/1684) loss:0.115 learning rate:0.0018092361169766793
+[2020-09-21 17:45:06,925][trainer_bg.py][INFO]  Epoch:6(901/1684) loss:0.001 learning rate:0.0018092361169766793
+[2020-09-21 17:46:04,788][trainer_bg.py][INFO]  Epoch:6(1001/1684) loss:0.158 learning rate:0.0018092361169766793
+[2020-09-21 17:47:02,485][trainer_bg.py][INFO]  Epoch:6(1101/1684) loss:0.078 learning rate:0.0018092361169766793
+[2020-09-21 17:48:00,641][trainer_bg.py][INFO]  Epoch:6(1201/1684) loss:0.305 learning rate:0.0018092361169766793
+[2020-09-21 17:48:58,630][trainer_bg.py][INFO]  Epoch:6(1301/1684) loss:0.157 learning rate:0.0018092361169766793
+[2020-09-21 17:49:56,858][trainer_bg.py][INFO]  Epoch:6(1401/1684) loss:0.188 learning rate:0.0018092361169766793
+[2020-09-21 17:50:55,048][trainer_bg.py][INFO]  Epoch:6(1501/1684) loss:0.210 learning rate:0.0018092361169766793
+[2020-09-21 17:51:53,108][trainer_bg.py][INFO]  Epoch:6(1601/1684) loss:0.030 learning rate:0.0018092361169766793
+[2020-09-21 17:52:41,602][trainer_bg.py][INFO]  Epoch:6(1685/1684) loss:0.157 learning rate:0.0018092361169766793
+[2020-09-21 17:56:06,384][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.9172984148862853, '缓行': 0.1964285714285714, '拥堵': 0.6393939393939395, '封闭': 0.9896978021978021}  各类F加权:0.7187128584716456
+[2020-09-21 17:56:06,385][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.2986 valAcc: 0.8973
+[2020-09-21 17:56:06,389][trainer_bg.py][INFO] Epoch:[6/29] Loss=0.14418  Acc=0.924 Epoch_Time:16.24009669224421 min: ETA: 6.496038676897685 hours
+[2020-09-21 17:56:07,323][trainer_bg.py][INFO] ----------
+[2020-09-21 17:56:07,324][trainer_bg.py][INFO] Epoch 7/29
+[2020-09-21 17:56:07,324][trainer_bg.py][INFO] learning rate:0.0013093716117154803
+[2020-09-21 17:56:07,324][trainer_bg.py][INFO] ----------
+[2020-09-21 17:56:09,591][trainer_bg.py][INFO]  Epoch:7(1/1684) loss:0.021 learning rate:0.0013093716117154803
+[2020-09-21 17:57:05,895][trainer_bg.py][INFO]  Epoch:7(101/1684) loss:0.024 learning rate:0.0013093716117154803
+[2020-09-21 17:58:03,034][trainer_bg.py][INFO]  Epoch:7(201/1684) loss:0.001 learning rate:0.0013093716117154803
+[2020-09-21 17:59:00,622][trainer_bg.py][INFO]  Epoch:7(301/1684) loss:0.013 learning rate:0.0013093716117154803
+[2020-09-21 17:59:59,086][trainer_bg.py][INFO]  Epoch:7(401/1684) loss:0.079 learning rate:0.0013093716117154803
+[2020-09-21 18:00:57,315][trainer_bg.py][INFO]  Epoch:7(501/1684) loss:0.003 learning rate:0.0013093716117154803
+[2020-09-21 18:01:55,728][trainer_bg.py][INFO]  Epoch:7(601/1684) loss:0.228 learning rate:0.0013093716117154803
+[2020-09-21 18:02:54,290][trainer_bg.py][INFO]  Epoch:7(701/1684) loss:0.149 learning rate:0.0013093716117154803
+[2020-09-21 18:03:52,071][trainer_bg.py][INFO]  Epoch:7(801/1684) loss:0.435 learning rate:0.0013093716117154803
+[2020-09-21 18:04:50,495][trainer_bg.py][INFO]  Epoch:7(901/1684) loss:0.129 learning rate:0.0013093716117154803
+[2020-09-21 18:05:48,770][trainer_bg.py][INFO]  Epoch:7(1001/1684) loss:0.336 learning rate:0.0013093716117154803
+[2020-09-21 18:06:46,341][trainer_bg.py][INFO]  Epoch:7(1101/1684) loss:0.125 learning rate:0.0013093716117154803
+[2020-09-21 18:07:44,724][trainer_bg.py][INFO]  Epoch:7(1201/1684) loss:0.001 learning rate:0.0013093716117154803
+[2020-09-21 18:08:43,382][trainer_bg.py][INFO]  Epoch:7(1301/1684) loss:0.423 learning rate:0.0013093716117154803
+[2020-09-21 18:09:41,795][trainer_bg.py][INFO]  Epoch:7(1401/1684) loss:0.296 learning rate:0.0013093716117154803
+[2020-09-21 18:10:39,806][trainer_bg.py][INFO]  Epoch:7(1501/1684) loss:0.008 learning rate:0.0013093716117154803
+[2020-09-21 18:11:37,881][trainer_bg.py][INFO]  Epoch:7(1601/1684) loss:0.165 learning rate:0.0013093716117154803
+[2020-09-21 18:12:26,707][trainer_bg.py][INFO]  Epoch:7(1685/1684) loss:0.007 learning rate:0.0013093716117154803
+[2020-09-21 18:15:52,217][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.9114546732255797, '缓行': 0.24221453287197234, '拥堵': 0.6002971768202081, '封闭': 0.9826989619377162}  各类F加权:0.7127571117181014
+[2020-09-21 18:15:52,218][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.3479 valAcc: 0.8821
+[2020-09-21 18:15:52,223][trainer_bg.py][INFO] Epoch:[7/29] Loss=0.09693  Acc=0.952 Epoch_Time:16.32443033059438 min: ETA: 6.257698293394513 hours
+[2020-09-21 18:15:53,183][trainer_bg.py][INFO] ----------
+[2020-09-21 18:15:53,184][trainer_bg.py][INFO] Epoch 8/29
+[2020-09-21 18:15:53,184][trainer_bg.py][INFO] learning rate:0.0006913376659333031
+[2020-09-21 18:15:53,184][trainer_bg.py][INFO] ----------
+[2020-09-21 18:15:55,207][trainer_bg.py][INFO]  Epoch:8(1/1684) loss:0.005 learning rate:0.0006913376659333031
+[2020-09-21 18:16:51,420][trainer_bg.py][INFO]  Epoch:8(101/1684) loss:0.003 learning rate:0.0006913376659333031
+[2020-09-21 18:17:48,778][trainer_bg.py][INFO]  Epoch:8(201/1684) loss:0.064 learning rate:0.0006913376659333031
+[2020-09-21 18:18:46,980][trainer_bg.py][INFO]  Epoch:8(301/1684) loss:0.128 learning rate:0.0006913376659333031
+[2020-09-21 18:19:44,685][trainer_bg.py][INFO]  Epoch:8(401/1684) loss:0.070 learning rate:0.0006913376659333031
+[2020-09-21 18:20:42,745][trainer_bg.py][INFO]  Epoch:8(501/1684) loss:0.001 learning rate:0.0006913376659333031
+[2020-09-21 18:21:40,670][trainer_bg.py][INFO]  Epoch:8(601/1684) loss:0.004 learning rate:0.0006913376659333031
+[2020-09-21 18:22:38,859][trainer_bg.py][INFO]  Epoch:8(701/1684) loss:0.016 learning rate:0.0006913376659333031
+[2020-09-21 18:23:37,010][trainer_bg.py][INFO]  Epoch:8(801/1684) loss:0.054 learning rate:0.0006913376659333031
+[2020-09-21 18:24:35,259][trainer_bg.py][INFO]  Epoch:8(901/1684) loss:0.000 learning rate:0.0006913376659333031
+[2020-09-21 18:25:33,150][trainer_bg.py][INFO]  Epoch:8(1001/1684) loss:0.135 learning rate:0.0006913376659333031
+[2020-09-21 18:26:31,214][trainer_bg.py][INFO]  Epoch:8(1101/1684) loss:0.021 learning rate:0.0006913376659333031
+[2020-09-21 18:27:30,127][trainer_bg.py][INFO]  Epoch:8(1201/1684) loss:0.048 learning rate:0.0006913376659333031
+[2020-09-21 18:28:27,980][trainer_bg.py][INFO]  Epoch:8(1301/1684) loss:0.153 learning rate:0.0006913376659333031
+[2020-09-21 18:29:26,053][trainer_bg.py][INFO]  Epoch:8(1401/1684) loss:0.013 learning rate:0.0006913376659333031
+[2020-09-21 18:30:24,700][trainer_bg.py][INFO]  Epoch:8(1501/1684) loss:0.021 learning rate:0.0006913376659333031
+[2020-09-21 18:31:22,150][trainer_bg.py][INFO]  Epoch:8(1601/1684) loss:0.087 learning rate:0.0006913376659333031
+[2020-09-21 18:32:10,340][trainer_bg.py][INFO]  Epoch:8(1685/1684) loss:0.101 learning rate:0.0006913376659333031
+[2020-09-21 18:35:37,160][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.9140916808149405, '缓行': 0.2958199356913183, '拥堵': 0.5836575875486382, '封闭': 0.9924863387978142}  各类F加权:0.7226649670034748
+[2020-09-21 18:35:37,161][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.3530 valAcc: 0.8943
+[2020-09-21 18:35:37,166][trainer_bg.py][INFO] Epoch:[8/29] Loss=0.04871  Acc=0.978 Epoch_Time:16.287296605110168 min: ETA: 5.972008755207062 hours
+[2020-09-21 18:35:38,611][trainer_bg.py][INFO] ----------
+[2020-09-21 18:35:38,611][trainer_bg.py][INFO] Epoch 9/29
+[2020-09-21 18:35:38,612][trainer_bg.py][INFO] learning rate:0.0001912022407177293
+[2020-09-21 18:35:38,612][trainer_bg.py][INFO] ----------
+[2020-09-21 18:35:40,516][trainer_bg.py][INFO]  Epoch:9(1/1684) loss:0.128 learning rate:0.0001912022407177293
+[2020-09-21 18:36:37,015][trainer_bg.py][INFO]  Epoch:9(101/1684) loss:0.007 learning rate:0.0001912022407177293
+[2020-09-21 18:37:34,941][trainer_bg.py][INFO]  Epoch:9(201/1684) loss:0.007 learning rate:0.0001912022407177293
+[2020-09-21 18:38:33,101][trainer_bg.py][INFO]  Epoch:9(301/1684) loss:0.032 learning rate:0.0001912022407177293
+[2020-09-21 18:39:31,659][trainer_bg.py][INFO]  Epoch:9(401/1684) loss:0.033 learning rate:0.0001912022407177293
+[2020-09-21 18:40:30,061][trainer_bg.py][INFO]  Epoch:9(501/1684) loss:0.001 learning rate:0.0001912022407177293
+[2020-09-21 18:41:29,618][trainer_bg.py][INFO]  Epoch:9(601/1684) loss:0.040 learning rate:0.0001912022407177293
+[2020-09-21 18:42:28,014][trainer_bg.py][INFO]  Epoch:9(701/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 18:43:26,212][trainer_bg.py][INFO]  Epoch:9(801/1684) loss:0.001 learning rate:0.0001912022407177293
+[2020-09-21 18:44:25,065][trainer_bg.py][INFO]  Epoch:9(901/1684) loss:0.076 learning rate:0.0001912022407177293
+[2020-09-21 18:45:23,836][trainer_bg.py][INFO]  Epoch:9(1001/1684) loss:0.007 learning rate:0.0001912022407177293
+[2020-09-21 18:46:22,877][trainer_bg.py][INFO]  Epoch:9(1101/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 18:47:20,818][trainer_bg.py][INFO]  Epoch:9(1201/1684) loss:0.002 learning rate:0.0001912022407177293
+[2020-09-21 18:48:19,139][trainer_bg.py][INFO]  Epoch:9(1301/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 18:49:18,514][trainer_bg.py][INFO]  Epoch:9(1401/1684) loss:0.023 learning rate:0.0001912022407177293
+[2020-09-21 18:50:16,699][trainer_bg.py][INFO]  Epoch:9(1501/1684) loss:0.045 learning rate:0.0001912022407177293
+[2020-09-21 18:51:16,092][trainer_bg.py][INFO]  Epoch:9(1601/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 18:52:04,928][trainer_bg.py][INFO]  Epoch:9(1685/1684) loss:0.003 learning rate:0.0001912022407177293
+[2020-09-21 18:55:30,827][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.9181912323092855, '缓行': 0.20967741935483872, '拥堵': 0.6353677621283255, '封闭': 0.9890185312285518}  各类F加权:0.7199723482318147
+[2020-09-21 18:55:30,828][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.4261 valAcc: 0.8958
+[2020-09-21 18:55:30,833][trainer_bg.py][INFO] Epoch:[9/29] Loss=0.02602  Acc=0.990 Epoch_Time:16.43994413216909 min: ETA: 5.753980446259181 hours
+[2020-09-21 18:55:31,953][trainer_bg.py][INFO] ----------
+[2020-09-21 18:55:31,953][trainer_bg.py][INFO] Epoch 10/29
+[2020-09-21 18:55:31,953][trainer_bg.py][INFO] learning rate:6.952322750830575e-11
+[2020-09-21 18:55:31,953][trainer_bg.py][INFO] ----------
+[2020-09-21 18:55:33,976][trainer_bg.py][INFO]  Epoch:10(1/1684) loss:0.038 learning rate:6.952322750830575e-11
+[2020-09-21 18:56:30,537][trainer_bg.py][INFO]  Epoch:10(101/1684) loss:0.000 learning rate:6.952322750830575e-11
+[2020-09-21 18:57:27,515][trainer_bg.py][INFO]  Epoch:10(201/1684) loss:0.008 learning rate:6.952322750830575e-11
+[2020-09-21 18:58:25,128][trainer_bg.py][INFO]  Epoch:10(301/1684) loss:0.003 learning rate:6.952322750830575e-11
+[2020-09-21 18:59:22,879][trainer_bg.py][INFO]  Epoch:10(401/1684) loss:0.001 learning rate:6.952322750830575e-11
+[2020-09-21 19:00:20,770][trainer_bg.py][INFO]  Epoch:10(501/1684) loss:0.000 learning rate:6.952322750830575e-11
+[2020-09-21 19:01:19,348][trainer_bg.py][INFO]  Epoch:10(601/1684) loss:0.002 learning rate:6.952322750830575e-11
+[2020-09-21 19:02:17,630][trainer_bg.py][INFO]  Epoch:10(701/1684) loss:0.000 learning rate:6.952322750830575e-11
+[2020-09-21 19:03:15,873][trainer_bg.py][INFO]  Epoch:10(801/1684) loss:0.000 learning rate:6.952322750830575e-11
+[2020-09-21 19:04:13,700][trainer_bg.py][INFO]  Epoch:10(901/1684) loss:0.000 learning rate:6.952322750830575e-11
+[2020-09-21 19:05:12,183][trainer_bg.py][INFO]  Epoch:10(1001/1684) loss:0.027 learning rate:6.952322750830575e-11
+[2020-09-21 19:06:10,520][trainer_bg.py][INFO]  Epoch:10(1101/1684) loss:0.045 learning rate:6.952322750830575e-11
+[2020-09-21 19:07:09,136][trainer_bg.py][INFO]  Epoch:10(1201/1684) loss:0.053 learning rate:6.952322750830575e-11
+[2020-09-21 19:08:07,546][trainer_bg.py][INFO]  Epoch:10(1301/1684) loss:0.010 learning rate:6.952322750830575e-11
+[2020-09-21 19:09:05,827][trainer_bg.py][INFO]  Epoch:10(1401/1684) loss:0.005 learning rate:6.952322750830575e-11
+[2020-09-21 19:10:03,455][trainer_bg.py][INFO]  Epoch:10(1501/1684) loss:0.024 learning rate:6.952322750830575e-11
+[2020-09-21 19:11:01,112][trainer_bg.py][INFO]  Epoch:10(1601/1684) loss:0.039 learning rate:6.952322750830575e-11
+[2020-09-21 19:11:50,101][trainer_bg.py][INFO]  Epoch:10(1685/1684) loss:0.000 learning rate:6.952322750830575e-11
+[2020-09-21 19:15:15,982][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.9181912323092855, '缓行': 0.20967741935483872, '拥堵': 0.6353677621283255, '封闭': 0.9890185312285518}  各类F加权:0.7199723482318147
+[2020-09-21 19:15:15,983][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.4261 valAcc: 0.8958
+[2020-09-21 19:15:15,986][trainer_bg.py][INFO] Epoch:[10/29] Loss=0.01927  Acc=0.993 Epoch_Time:16.303788808981576 min: ETA: 5.434596269660526 hours
+[2020-09-21 19:15:17,108][trainer_bg.py][INFO] ----------
+[2020-09-21 19:15:17,108][trainer_bg.py][INFO] Epoch 11/29
+[2020-09-21 19:15:17,108][trainer_bg.py][INFO] learning rate:0.0018092361169766789
+[2020-09-21 19:15:17,108][trainer_bg.py][INFO] ----------
+[2020-09-21 19:15:19,325][trainer_bg.py][INFO]  Epoch:11(1/1684) loss:0.000 learning rate:0.0018092361169766789
+[2020-09-21 19:16:15,822][trainer_bg.py][INFO]  Epoch:11(101/1684) loss:0.000 learning rate:0.0018092361169766789
+[2020-09-21 19:17:13,279][trainer_bg.py][INFO]  Epoch:11(201/1684) loss:0.278 learning rate:0.0018092361169766789
+[2020-09-21 19:18:11,599][trainer_bg.py][INFO]  Epoch:11(301/1684) loss:0.004 learning rate:0.0018092361169766789
+[2020-09-21 19:19:10,089][trainer_bg.py][INFO]  Epoch:11(401/1684) loss:0.075 learning rate:0.0018092361169766789
+[2020-09-21 19:20:08,268][trainer_bg.py][INFO]  Epoch:11(501/1684) loss:0.001 learning rate:0.0018092361169766789
+[2020-09-21 19:21:05,819][trainer_bg.py][INFO]  Epoch:11(601/1684) loss:0.068 learning rate:0.0018092361169766789
+[2020-09-21 19:22:03,626][trainer_bg.py][INFO]  Epoch:11(701/1684) loss:0.081 learning rate:0.0018092361169766789
+[2020-09-21 19:23:02,041][trainer_bg.py][INFO]  Epoch:11(801/1684) loss:0.018 learning rate:0.0018092361169766789
+[2020-09-21 19:24:00,025][trainer_bg.py][INFO]  Epoch:11(901/1684) loss:0.105 learning rate:0.0018092361169766789
+[2020-09-21 19:24:58,496][trainer_bg.py][INFO]  Epoch:11(1001/1684) loss:0.014 learning rate:0.0018092361169766789
+[2020-09-21 19:25:55,901][trainer_bg.py][INFO]  Epoch:11(1101/1684) loss:0.000 learning rate:0.0018092361169766789
+[2020-09-21 19:26:53,544][trainer_bg.py][INFO]  Epoch:11(1201/1684) loss:0.016 learning rate:0.0018092361169766789
+[2020-09-21 19:27:50,764][trainer_bg.py][INFO]  Epoch:11(1301/1684) loss:0.046 learning rate:0.0018092361169766789
+[2020-09-21 19:28:47,646][trainer_bg.py][INFO]  Epoch:11(1401/1684) loss:0.067 learning rate:0.0018092361169766789
+[2020-09-21 19:29:45,055][trainer_bg.py][INFO]  Epoch:11(1501/1684) loss:0.000 learning rate:0.0018092361169766789
+[2020-09-21 19:30:42,033][trainer_bg.py][INFO]  Epoch:11(1601/1684) loss:0.036 learning rate:0.0018092361169766789
+[2020-09-21 19:31:29,431][trainer_bg.py][INFO]  Epoch:11(1685/1684) loss:0.111 learning rate:0.0018092361169766789
+[2020-09-21 19:34:57,859][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.8980788016932596, '缓行': 0.20077220077220076, '拥堵': 0.47980997624703087, '封闭': 0.9901594842212419}  各类F加权:0.6699691068863721
+[2020-09-21 19:34:57,860][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.4001 valAcc: 0.8853
+[2020-09-21 19:34:57,865][trainer_bg.py][INFO] Epoch:[11/29] Loss=0.08539  Acc=0.957 Epoch_Time:16.206550681591033 min: ETA: 5.132074382503827 hours
+[2020-09-21 19:34:58,388][trainer_bg.py][INFO] ----------
+[2020-09-21 19:34:58,388][trainer_bg.py][INFO] Epoch 12/29
+[2020-09-21 19:34:58,388][trainer_bg.py][INFO] learning rate:0.0013093716117154798
+[2020-09-21 19:34:58,388][trainer_bg.py][INFO] ----------
+[2020-09-21 19:35:00,555][trainer_bg.py][INFO]  Epoch:12(1/1684) loss:0.149 learning rate:0.0013093716117154798
+[2020-09-21 19:35:56,613][trainer_bg.py][INFO]  Epoch:12(101/1684) loss:0.059 learning rate:0.0013093716117154798
+[2020-09-21 19:36:52,997][trainer_bg.py][INFO]  Epoch:12(201/1684) loss:0.086 learning rate:0.0013093716117154798
+[2020-09-21 19:37:49,592][trainer_bg.py][INFO]  Epoch:12(301/1684) loss:0.002 learning rate:0.0013093716117154798
+[2020-09-21 19:38:46,653][trainer_bg.py][INFO]  Epoch:12(401/1684) loss:0.019 learning rate:0.0013093716117154798
+[2020-09-21 19:39:44,145][trainer_bg.py][INFO]  Epoch:12(501/1684) loss:0.001 learning rate:0.0013093716117154798
+[2020-09-21 19:40:41,949][trainer_bg.py][INFO]  Epoch:12(601/1684) loss:0.000 learning rate:0.0013093716117154798
+[2020-09-21 19:41:39,587][trainer_bg.py][INFO]  Epoch:12(701/1684) loss:0.000 learning rate:0.0013093716117154798
+[2020-09-21 19:42:37,504][trainer_bg.py][INFO]  Epoch:12(801/1684) loss:0.009 learning rate:0.0013093716117154798
+[2020-09-21 19:43:35,859][trainer_bg.py][INFO]  Epoch:12(901/1684) loss:0.000 learning rate:0.0013093716117154798
+[2020-09-21 19:44:33,600][trainer_bg.py][INFO]  Epoch:12(1001/1684) loss:0.070 learning rate:0.0013093716117154798
+[2020-09-21 19:45:33,359][trainer_bg.py][INFO]  Epoch:12(1101/1684) loss:0.000 learning rate:0.0013093716117154798
+[2020-09-21 19:46:36,968][trainer_bg.py][INFO]  Epoch:12(1201/1684) loss:0.000 learning rate:0.0013093716117154798
+[2020-09-21 19:47:40,003][trainer_bg.py][INFO]  Epoch:12(1301/1684) loss:0.003 learning rate:0.0013093716117154798
+[2020-09-21 19:48:43,911][trainer_bg.py][INFO]  Epoch:12(1401/1684) loss:0.002 learning rate:0.0013093716117154798
+[2020-09-21 19:49:47,154][trainer_bg.py][INFO]  Epoch:12(1501/1684) loss:0.007 learning rate:0.0013093716117154798
+[2020-09-21 19:50:53,009][trainer_bg.py][INFO]  Epoch:12(1601/1684) loss:0.007 learning rate:0.0013093716117154798
+[2020-09-21 19:51:48,248][trainer_bg.py][INFO]  Epoch:12(1685/1684) loss:0.041 learning rate:0.0013093716117154798
+[2020-09-21 19:56:02,343][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.9168712732374605, '缓行': 0.1762114537444934, '拥堵': 0.619047619047619, '封闭': 0.9877883310719132}  各类F加权:0.7077590362156957
+[2020-09-21 19:56:02,343][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.4891 valAcc: 0.8931
+[2020-09-21 19:56:02,348][trainer_bg.py][INFO] Epoch:[12/29] Loss=0.04279  Acc=0.979 Epoch_Time:16.831740295886995 min: ETA: 5.049522088766098 hours
+[2020-09-21 19:56:02,842][trainer_bg.py][INFO] ----------
+[2020-09-21 19:56:02,842][trainer_bg.py][INFO] Epoch 13/29
+[2020-09-21 19:56:02,842][trainer_bg.py][INFO] learning rate:0.0006913376659333028
+[2020-09-21 19:56:02,842][trainer_bg.py][INFO] ----------
+[2020-09-21 19:56:04,966][trainer_bg.py][INFO]  Epoch:13(1/1684) loss:0.000 learning rate:0.0006913376659333028
+[2020-09-21 19:57:14,647][trainer_bg.py][INFO]  Epoch:13(101/1684) loss:0.005 learning rate:0.0006913376659333028
+[2020-09-21 19:58:16,907][trainer_bg.py][INFO]  Epoch:13(201/1684) loss:0.113 learning rate:0.0006913376659333028
+[2020-09-21 19:59:20,027][trainer_bg.py][INFO]  Epoch:13(301/1684) loss:0.000 learning rate:0.0006913376659333028
+[2020-09-21 20:00:24,292][trainer_bg.py][INFO]  Epoch:13(401/1684) loss:0.009 learning rate:0.0006913376659333028
+[2020-09-21 20:01:32,915][trainer_bg.py][INFO]  Epoch:13(501/1684) loss:0.016 learning rate:0.0006913376659333028
+[2020-09-21 20:02:44,356][trainer_bg.py][INFO]  Epoch:13(601/1684) loss:0.002 learning rate:0.0006913376659333028
+[2020-09-21 20:03:53,587][trainer_bg.py][INFO]  Epoch:13(701/1684) loss:0.007 learning rate:0.0006913376659333028
+[2020-09-21 20:05:04,568][trainer_bg.py][INFO]  Epoch:13(801/1684) loss:0.002 learning rate:0.0006913376659333028
+[2020-09-21 20:06:08,841][trainer_bg.py][INFO]  Epoch:13(901/1684) loss:0.003 learning rate:0.0006913376659333028
+[2020-09-21 20:07:14,402][trainer_bg.py][INFO]  Epoch:13(1001/1684) loss:0.000 learning rate:0.0006913376659333028
+[2020-09-21 20:08:20,836][trainer_bg.py][INFO]  Epoch:13(1101/1684) loss:0.002 learning rate:0.0006913376659333028
+[2020-09-21 20:09:21,922][trainer_bg.py][INFO]  Epoch:13(1201/1684) loss:0.204 learning rate:0.0006913376659333028
+[2020-09-21 20:10:22,894][trainer_bg.py][INFO]  Epoch:13(1301/1684) loss:0.014 learning rate:0.0006913376659333028
+[2020-09-21 20:11:23,899][trainer_bg.py][INFO]  Epoch:13(1401/1684) loss:0.005 learning rate:0.0006913376659333028
+[2020-09-21 20:12:26,930][trainer_bg.py][INFO]  Epoch:13(1501/1684) loss:0.001 learning rate:0.0006913376659333028
+[2020-09-21 20:13:29,959][trainer_bg.py][INFO]  Epoch:13(1601/1684) loss:0.004 learning rate:0.0006913376659333028
+[2020-09-21 20:14:17,846][trainer_bg.py][INFO]  Epoch:13(1685/1684) loss:0.015 learning rate:0.0006913376659333028
+[2020-09-21 20:17:56,466][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.9198486412108703, '缓行': 0.17796610169491522, '拥堵': 0.625, '封闭': 0.9886792452830189}  各类F加权:0.7105497825732776
+[2020-09-21 20:17:56,467][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.5593 valAcc: 0.8955
+[2020-09-21 20:17:56,469][trainer_bg.py][INFO] Epoch:[13/29] Loss=0.01706  Acc=0.993 Epoch_Time:18.251265184084573 min: ETA: 5.1711918021572965 hours
+[2020-09-21 20:17:56,899][trainer_bg.py][INFO] ----------
+[2020-09-21 20:17:56,900][trainer_bg.py][INFO] Epoch 14/29
+[2020-09-21 20:17:56,900][trainer_bg.py][INFO] learning rate:0.0001912022407177293
+[2020-09-21 20:17:56,900][trainer_bg.py][INFO] ----------
+[2020-09-21 20:18:00,362][trainer_bg.py][INFO]  Epoch:14(1/1684) loss:0.003 learning rate:0.0001912022407177293
+[2020-09-21 20:19:04,110][trainer_bg.py][INFO]  Epoch:14(101/1684) loss:0.001 learning rate:0.0001912022407177293
+[2020-09-21 20:20:07,270][trainer_bg.py][INFO]  Epoch:14(201/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 20:21:15,671][trainer_bg.py][INFO]  Epoch:14(301/1684) loss:0.001 learning rate:0.0001912022407177293
+[2020-09-21 20:22:21,690][trainer_bg.py][INFO]  Epoch:14(401/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 20:23:24,719][trainer_bg.py][INFO]  Epoch:14(501/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 20:24:22,837][trainer_bg.py][INFO]  Epoch:14(601/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 20:25:21,016][trainer_bg.py][INFO]  Epoch:14(701/1684) loss:0.001 learning rate:0.0001912022407177293
+[2020-09-21 20:26:19,407][trainer_bg.py][INFO]  Epoch:14(801/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 20:27:17,141][trainer_bg.py][INFO]  Epoch:14(901/1684) loss:0.001 learning rate:0.0001912022407177293
+[2020-09-21 20:28:15,513][trainer_bg.py][INFO]  Epoch:14(1001/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 20:29:13,271][trainer_bg.py][INFO]  Epoch:14(1101/1684) loss:0.001 learning rate:0.0001912022407177293
+[2020-09-21 20:30:10,439][trainer_bg.py][INFO]  Epoch:14(1201/1684) loss:0.009 learning rate:0.0001912022407177293
+[2020-09-21 20:31:07,169][trainer_bg.py][INFO]  Epoch:14(1301/1684) loss:0.036 learning rate:0.0001912022407177293
+[2020-09-21 20:32:03,787][trainer_bg.py][INFO]  Epoch:14(1401/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 20:33:01,343][trainer_bg.py][INFO]  Epoch:14(1501/1684) loss:0.003 learning rate:0.0001912022407177293
+[2020-09-21 20:33:58,272][trainer_bg.py][INFO]  Epoch:14(1601/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 20:34:46,679][trainer_bg.py][INFO]  Epoch:14(1685/1684) loss:0.000 learning rate:0.0001912022407177293
+[2020-09-21 20:38:19,150][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.9200819672131147, '缓行': 0.22134387351778656, '拥堵': 0.6176961602671119, '封闭': 0.9897189856065798}  各类F加权:0.7174734137476343
+[2020-09-21 20:38:19,150][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.5615 valAcc: 0.8970
+[2020-09-21 20:38:19,153][trainer_bg.py][INFO] Epoch:[14/29] Loss=0.00789  Acc=0.997 Epoch_Time:16.83072477976481 min: ETA: 4.488193274603949 hours
+[2020-09-21 20:38:19,638][trainer_bg.py][INFO] ----------
+[2020-09-21 20:38:19,638][trainer_bg.py][INFO] Epoch 15/29
+[2020-09-21 20:38:19,638][trainer_bg.py][INFO] learning rate:6.952322750830575e-11
+[2020-09-21 20:38:19,638][trainer_bg.py][INFO] ----------
+[2020-09-21 20:38:22,178][trainer_bg.py][INFO]  Epoch:15(1/1684) loss:0.013 learning rate:6.952322750830575e-11
+[2020-09-21 20:39:17,925][trainer_bg.py][INFO]  Epoch:15(101/1684) loss:0.001 learning rate:6.952322750830575e-11
+[2020-09-21 20:40:15,201][trainer_bg.py][INFO]  Epoch:15(201/1684) loss:0.005 learning rate:6.952322750830575e-11
+[2020-09-21 20:41:12,288][trainer_bg.py][INFO]  Epoch:15(301/1684) loss:0.001 learning rate:6.952322750830575e-11
+[2020-09-21 20:42:09,623][trainer_bg.py][INFO]  Epoch:15(401/1684) loss:0.002 learning rate:6.952322750830575e-11
+[2020-09-21 20:43:07,665][trainer_bg.py][INFO]  Epoch:15(501/1684) loss:0.001 learning rate:6.952322750830575e-11
+[2020-09-21 20:44:07,350][trainer_bg.py][INFO]  Epoch:15(601/1684) loss:0.001 learning rate:6.952322750830575e-11
+[2020-09-21 20:45:04,616][trainer_bg.py][INFO]  Epoch:15(701/1684) loss:0.123 learning rate:6.952322750830575e-11
+[2020-09-21 20:46:01,853][trainer_bg.py][INFO]  Epoch:15(801/1684) loss:0.000 learning rate:6.952322750830575e-11
+[2020-09-21 20:46:59,341][trainer_bg.py][INFO]  Epoch:15(901/1684) loss:0.007 learning rate:6.952322750830575e-11
+[2020-09-21 20:47:56,927][trainer_bg.py][INFO]  Epoch:15(1001/1684) loss:0.000 learning rate:6.952322750830575e-11
+[2020-09-21 20:48:53,970][trainer_bg.py][INFO]  Epoch:15(1101/1684) loss:0.000 learning rate:6.952322750830575e-11
+[2020-09-21 20:49:51,644][trainer_bg.py][INFO]  Epoch:15(1201/1684) loss:0.019 learning rate:6.952322750830575e-11
+[2020-09-21 20:50:48,508][trainer_bg.py][INFO]  Epoch:15(1301/1684) loss:0.002 learning rate:6.952322750830575e-11
+[2020-09-21 20:51:46,682][trainer_bg.py][INFO]  Epoch:15(1401/1684) loss:0.001 learning rate:6.952322750830575e-11
+[2020-09-21 20:52:43,723][trainer_bg.py][INFO]  Epoch:15(1501/1684) loss:0.000 learning rate:6.952322750830575e-11
+[2020-09-21 20:53:41,650][trainer_bg.py][INFO]  Epoch:15(1601/1684) loss:0.012 learning rate:6.952322750830575e-11
+[2020-09-21 20:54:29,874][trainer_bg.py][INFO]  Epoch:15(1685/1684) loss:0.003 learning rate:6.952322750830575e-11
+[2020-09-21 20:57:55,074][trainer_bg.py][INFO] 各类单独F1:{'畅通': 0.9200819672131147, '缓行': 0.22134387351778656, '拥堵': 0.6176961602671119, '封闭': 0.9897189856065798}  各类F加权:0.7174734137476343
+[2020-09-21 20:57:55,075][trainer_bg.py][INFO] val_size: 3349  valLoss: 0.5615 valAcc: 0.8970
+[2020-09-21 20:57:55,083][trainer_bg.py][INFO] Epoch:[15/29] Loss=0.00721  Acc=0.997 Epoch_Time:16.171718136469522 min: ETA: 4.0429295341173805 hours
+[2020-09-21 20:57:55,973][trainer_bg.py][INFO] ----------
+[2020-09-21 20:57:55,973][trainer_bg.py][INFO] Epoch 16/29
+[2020-09-21 20:57:55,973][trainer_bg.py][INFO] learning rate:0.0018092361169766789
+[2020-09-21 20:57:55,973][trainer_bg.py][INFO] ----------
+[2020-09-21 20:57:58,754][trainer_bg.py][INFO]  Epoch:16(1/1684) loss:0.000 learning rate:0.0018092361169766789
+[2020-09-21 20:58:54,761][trainer_bg.py][INFO]  Epoch:16(101/1684) loss:0.001 learning rate:0.0018092361169766789
+[2020-09-21 20:59:51,534][trainer_bg.py][INFO]  Epoch:16(201/1684) loss:0.011 learning rate:0.0018092361169766789
+[2020-09-21 21:00:48,890][trainer_bg.py][INFO]  Epoch:16(301/1684) loss:0.002 learning rate:0.0018092361169766789
+[2020-09-21 21:01:46,530][trainer_bg.py][INFO]  Epoch:16(401/1684) loss:0.130 learning rate:0.0018092361169766789
+[2020-09-21 21:02:44,050][trainer_bg.py][INFO]  Epoch:16(501/1684) loss:0.008 learning rate:0.0018092361169766789
+[2020-09-21 21:03:41,918][trainer_bg.py][INFO]  Epoch:16(601/1684) loss:0.067 learning rate:0.0018092361169766789
+[2020-09-21 21:04:39,774][trainer_bg.py][INFO]  Epoch:16(701/1684) loss:0.025 learning rate:0.0018092361169766789
+[2020-09-21 21:05:37,255][trainer_bg.py][INFO]  Epoch:16(801/1684) loss:0.044 learning rate:0.0018092361169766789
+[2020-09-21 21:06:35,029][trainer_bg.py][INFO]  Epoch:16(901/1684) loss:0.004 learning rate:0.0018092361169766789
+[2020-09-21 21:07:33,111][trainer_bg.py][INFO]  Epoch:16(1001/1684) loss:0.000 learning rate:0.0018092361169766789
