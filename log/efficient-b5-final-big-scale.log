@@ -458,3 +458,4 @@
 [2020-09-21 21:37:18,272][trainer_bg.py][INFO]  Epoch:18(1/1684) loss:0.000 learning rate:0.0006913376659333028
 [2020-09-21 21:38:14,287][trainer_bg.py][INFO]  Epoch:18(101/1684) loss:0.002 learning rate:0.0006913376659333028
 [2020-09-21 21:39:11,625][trainer_bg.py][INFO]  Epoch:18(201/1684) loss:0.006 learning rate:0.0006913376659333028
+[2020-09-21 21:40:09,177][trainer_bg.py][INFO]  Epoch:18(301/1684) loss:0.002 learning rate:0.0006913376659333028
